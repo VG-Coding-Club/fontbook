@@ -1,0 +1,60 @@
+.fontmotion {
+  animation:2s linear infinite fontmotion;
+}
+
+@-webkit-keyframes fontmotion {
+  0% {
+    font-style:normal;
+    font-family:sans-serif;
+  }
+  10% {
+    font-style:italic;
+    font-family:serif;
+    font-stretch: 100%;
+  }
+  20% {
+    font-style:oblique;
+    font-family:cursive;
+    font-stretch: 150%;
+  }
+  30% {
+    font-style:oblique -30deg;
+    font-family:fantasy;
+    font-stretch: 125%;
+  }
+  40% {
+    font-style:normal;
+    font-family: monospace;
+    font-stretch:75%;
+  }
+  50% {
+    font-style:italic;
+    font-family: fantasy;
+    font-stretch: 50%;
+  }
+  60% {
+    font-style:oblique 50deg;
+    font-family: sans-serif;
+    font-stretch: 100%;
+  }
+  70% {
+    font-style:normal;
+    font-family: serif;
+    font-stretch: 125%;
+  }
+  80% {
+    font-style:oblique -90deg;
+    font-family: cursive;
+    font-stretch: 200%;
+  }
+  90% {
+    font-style:italic;
+    font-family: fantasy;
+    font-stretch: 150%;
+  }
+  100% {
+    font-style:oblique 60deg;
+    font-family: monospace;
+    font-stretch: 75%;
+  }
+}
