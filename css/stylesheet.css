@@ -5,11 +5,6 @@
        url("http://creative-community.pe.hu/coding/fontbook/family/");
 }
 
-.Chillax {font-family: "Chillax";}
-@font-face {
-  font-family: "Chillax";
-  src: url("http://creative-community.pe.hu/coding/fontbook/family/Pencerio-Hairline.ttf");
-}
 .Pencerio {font-family: "Pencerio";}
 @font-face {
   font-family: "Pencerio";
