@@ -5,6 +5,106 @@
        url("http://creative-community.pe.hu/coding/fontbook/family/");
 }
 
+.VioletSans {font-family: "VioletSans";}
+@font-face {
+  font-family: "VioletSans";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/VioletSans-Regular.ttf");
+}
+.emotional {font-family: "emotional";}
+@font-face {
+  font-family: "emotional";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/emotional-VF.ttf");
+}
+.Jabin-Typeface {font-family: "Jabin-Typeface";}
+@font-face {
+  font-family: "Jabin-Typeface";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/Jabin-Typeface.ttf");
+}
+.Typoliner {font-family: "Typoliner";}
+@font-face {
+  font-family: "Typoliner";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/Typoliner-RW-Light.ttf");
+}
+.RealMagicPersonalUse {font-family: "RealMagicPersonalUse";}
+@font-face {
+  font-family: "RealMagicPersonalUse";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/RealMagicPersonalUse-GOnaD.otf");
+}
+.RoashePersonalUse {font-family: "RoashePersonalUse";}
+@font-face {
+  font-family: "RoashePersonalUse";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/RoashePersonalUse-jEa4M.otf");
+}
+.13Inka {font-family: "13Inka";}
+@font-face {
+  font-family: "13Inka";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/13Inka-K782y.ttf");
+}
+.Etiquette {font-family: "Etiquette";}
+@font-face {
+  font-family: "Etiquette";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/Etiquette-2OGXW.ttf");
+}
+.Flumberywhitedemo {font-family: "Flumberywhitedemo";}
+@font-face {
+  font-family: "Flumberywhitedemo";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/Flumberywhitedemo-qZAL1.otf");
+}
+.Astonish {font-family: "Astonish";}
+@font-face {
+  font-family: "Astonish";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/Astonish-d9j76.otf");
+}
+.Hunterland {font-family: "Hunterland";}
+@font-face {
+  font-family: "Hunterland";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/Hunterland-K78lo.ttf");
+}
+.BrighterMiraclesPersonalUse {font-family: "BrighterMiraclesPersonalUse";}
+@font-face {
+  font-family: "BrighterMiraclesPersonalUse";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/BrighterMiraclesPersonalUse-ax5Bm.otf");
+}
+.Birthright {font-family: "Birthright";}
+@font-face {
+  font-family: "Birthright";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/Birthright-WyAYO.ttf");
+}
+.AnthoniSifnature {font-family: "AnthoniSifnature";}
+@font-face {
+  font-family: "AnthoniSifnature";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/AnthoniSifnature-YzKqO.otf");
+}
+.RoselinaEllis {font-family: "RoselinaEllis";}
+@font-face {
+  font-family: "RoselinaEllis";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/RoselinaEllis-lgpxq.otf");
+}
+.BlackMatteo {font-family: "BlackMatteo";}
+@font-face {
+  font-family: "BlackMatteo";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/BlackMatteo-w1Wo9.otf");
+}
+.JSPRDISPLAY {font-family: "JSPRDISPLAY";}
+@font-face {
+  font-family: "JSPRDISPLAY";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/JSPRDISPLAY_2021.otf");
+}
+.Heritage-Display {font-family: "Heritage-Display";}
+@font-face {
+  font-family: "Heritage-Display";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/Heritage-Display.otf");
+}
+.milkman {font-family: "milkman";}
+@font-face {
+  font-family: "milkman";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/milkman.ttf");
+}
+.Avara {font-family: "Avara";}
+@font-face {
+  font-family: "Avara";
+  src: url("http://creative-community.pe.hu/coding/fontbook/family/Avara-Black.ttf");
+}
 .Pencerio {font-family: "Pencerio";}
 @font-face {
   font-family: "Pencerio";
