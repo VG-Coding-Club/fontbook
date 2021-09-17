@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title> Font Book | creative-community.pe.hu </title>
+<title> Font Book | How to Coding </title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="/coding/js/randomcolor.js"></script>
 <script type="text/javascript">
@@ -48,7 +48,9 @@ margin:5% 0 10%;
 
 @media screen and (max-width: 500px){
 #left #hello,
-#right #coding
+#right #coding,
+#right #order,
+#right #contents
  {display:none;}
 #mobile {
   display:block;
@@ -61,7 +63,7 @@ margin:5% 0 10%;
 </style>
 </head>
 <body>
-<h1 id="title">Font Book | creative-community.pe.hu</h1>
+<h1 id="title">Font Book | How to Coding</h1>
 <div id="cover">
 <div id="left">
 <div id="hello"></div>
@@ -82,7 +84,7 @@ margin:5% 0 10%;
 <span class="close" onclick="obj=document.getElementById('contactform').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 <div class="popup" id="support" style="display:none;">
-<p><iframe src="http://vg.pe.hu/jp/cm/support.html"></iframe></p>
+<p><iframe src="/support/"></iframe></p>
 <span class="close" onclick="obj=document.getElementById('support').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 </body>
