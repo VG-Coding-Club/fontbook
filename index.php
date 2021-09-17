@@ -22,7 +22,7 @@ $(function(){
 <link rel="stylesheet" href="/coding/cover/style.css"/>
 <link rel="stylesheet" href="/coding/css/popup.css"/>
 <link rel="stylesheet" href="/coding/css/mobile.css"/>
-<link rel="stylesheet" href="/coding/fontbook/css/stylesheet.css"/>
+<link rel="stylesheet" href="/coding/fontbook/css/font-family.css"/>
 <style type="text/css">
 @font-face {
   font-family: "NewYork";

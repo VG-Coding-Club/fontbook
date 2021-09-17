@@ -36,7 +36,7 @@ $(function(){
 </script>
 <title> Font Book | creative-community.pe.hu </title>
 <link rel="stylesheet" href="/coding/submit/org/book.css"/>
-<link rel="stylesheet" href="/coding/fontbook/css/stylesheet.css"/>
+<link rel="stylesheet" href="/coding/fontbook/css/font-family.css"/>
 <style type="text/css">
 .list li .id {
 	position: absolute;
