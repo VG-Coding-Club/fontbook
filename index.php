@@ -71,12 +71,12 @@ margin:5% 0 10%;
 </div>
 <div id="right">
 <div id="coding"></div>
-<div id="order"></div>
 <div id="contents">
 <p class="support">Support
 <a onclick="obj=document.getElementById('support').style; obj.display=(obj.display=='none')?'block':'none';">Donation</a>
 </p>
 </div>
+<div id="order"></div>
 </div>
 </div>
 <div class="popup" id="contactform" style="display:none;">
