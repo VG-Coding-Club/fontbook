@@ -64,7 +64,7 @@ margin:5% 0 10%;
 </style>
 </head>
 <body>
-<h1 id="title">Font Book | How to Coding</h1>
+<h1 id="title">Font Book | VG CTLG</h1>
 <div id="cover">
 <div id="left">
 <div id="hello"></div>
