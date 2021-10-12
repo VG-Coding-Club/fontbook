@@ -5,6 +5,21 @@
        url("http://creative-community.space/coding/fontbook/family/");
 }
 
+.GoodGlyphs {font-family: "GoodGlyphs";}
+@font-face {
+  font-family: "GoodGlyphs";
+  src: url("http://creative-community.space/coding/fontbook/family/GoodGlyphs-No1.woff"),;
+}
+.Garamondt {font-family: "Garamondt";}
+@font-face {
+  font-family: "Garamondt";
+  src: url("http://creative-community.space/coding/fontbook/family/Garamondt-Italic.otf");
+}
+.Slash {font-family: "Slash";}
+@font-face {
+  font-family: "Slash";
+  src: url("http://creative-community.space/coding/fontbook/family/Slash-Standard.otf");
+}
 .VioletSans {font-family: "VioletSans";}
 @font-face {
   font-family: "VioletSans";
