@@ -5,6 +5,11 @@
        url("https://creative-community.space/coding/fontbook/family/");
 }
 
+.notosans {font-family: "notosans";}
+@font-face {
+  font-family: "notosans";
+  src: url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+}
 .honoka {font-family: "honoka";}
 @font-face {
   font-family: "honoka";
