@@ -5,6 +5,11 @@
        url("https://creative-community.space/coding/fontbook/family/");
 }
 
+.honoka {font-family: "honoka";}
+@font-face {
+  font-family: "honoka";
+  src: url("https://creative-community.space/coding/fontbook/family/Honoka-Shin-Maru-Gothic_R.otf");
+}
 .GoodGlyphs {font-family: "GoodGlyphs";}
 @font-face {
   font-family: "GoodGlyphs";
