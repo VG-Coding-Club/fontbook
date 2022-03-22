@@ -5,14 +5,14 @@
        url("https://creative-community.space/coding/fontbook/family/");
 }
 
-.MSMincho {font-family: "MS Mincho";}
+.MSMincho {font-family: "MSMincho", "MS Mincho", sans-serif;}
 @font-face {
-  font-family: "MS Mincho";
+  font-family: "MSMincho", "MS Mincho";
   src: url("https://creative-community.space/coding/fontbook/family/MS Mincho.ttf");
 }
-.MSGothic {font-family: "MS Gothic";}
+.MSGothic {font-family: "MSGothic", "MS Gothic", serif;}
 @font-face {
-  font-family: "MS Gothic";
+  font-family: "MSGothic";
   src: url("https://creative-community.space/coding/fontbook/family/MS Gothic.ttf");
 }
 .GreatVibes {font-family: "GreatVibes";}
