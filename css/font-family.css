@@ -5,15 +5,15 @@
        url("https://creative-community.space/coding/fontbook/family/");
 }
 
-.notosans {font-family: "notosans";}
+.MSMincho {font-family: "MSMincho";}
 @font-face {
-  font-family: "notosans";
-  src: url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+  font-family: "MSMincho";
+  src: url("https://creative-community.space/coding/fontbook/family/MS Mincho.ttf");
 }
-.honoka {font-family: "honoka";}
+.MSGothic {font-family: "MSGothic";}
 @font-face {
-  font-family: "honoka";
-  src: url("https://creative-community.space/coding/fontbook/family/Honoka-Shin-Maru-Gothic_R.otf");
+  font-family: "MSGothic";
+  src: url("https://creative-community.space/coding/fontbook/family/MS Gothic.ttf");
 }
 .GoodGlyphs {font-family: "GoodGlyphs";}
 @font-face {
@@ -23,7 +23,7 @@
 .Garamondt {font-family: "Garamondt";}
 @font-face {
   font-family: "Garamondt";
-  src: url("https://creative-community.space/coding/fontbook/family/Garamondt-Italic.otf");
+  src: url("https://creative-community.space/coding/fontbook/family/MS Mincho.ttf");
 }
 .Slash {font-family: "Slash";}
 @font-face {
