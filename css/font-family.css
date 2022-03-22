@@ -15,6 +15,11 @@
   font-family: "MS Gothic";
   src: url("https://creative-community.space/coding/fontbook/family/MS Gothic.ttf");
 }
+.GreatVibes {font-family: "GreatVibes";}
+@font-face {
+  font-family: "GreatVibes";
+  src: url("https://creative-community.space/coding/fontbook/family/GreatVibes-Regular.ttf");
+}
 .GoodGlyphs {font-family: "GoodGlyphs";}
 @font-face {
   font-family: "GoodGlyphs";
