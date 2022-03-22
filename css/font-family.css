@@ -5,6 +5,11 @@
        url("https://creative-community.space/coding/fontbook/family/");
 }
 
+.Standard {font-family: "Standard";}
+@font-face {
+  font-family: "Standard";
+  src: url("https://creative-community.space/coding/fontbook/family/standard-book.otf");
+}
 .MSMincho {font-family: "MSMincho", "MS Mincho", sans-serif;}
 @font-face {
   font-family: "MSMincho", "MS Mincho";
