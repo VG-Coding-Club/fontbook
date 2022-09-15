@@ -59,7 +59,6 @@ fclose($fp);
 
 <body>
 	<div id="header">
-		<b>📚</b>
 		<span>Update</span>
 		<u class="fontmotion">
 			<?php
