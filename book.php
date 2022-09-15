@@ -3,11 +3,6 @@ function h($str)
 {
 	return htmlspecialchars($str, ENT_QUOTES, 'UTF-8');
 }
-$title = (string)filter_input(INPUT_POST, 'title');
-$id = (string)filter_input(INPUT_POST, 'id');
-$by = (string)filter_input(INPUT_POST, 'by');
-$link = (string)filter_input(INPUT_POST, 'link');
-$family = (string)filter_input(INPUT_POST, 'family');
 
 $fp = fopen('book.csv', 'a+b');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -24,32 +19,18 @@ flock($fp, LOCK_UN);
 fclose($fp);
 
 ?>
-<html>
+<html lang="ja">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="viewport" content="width=device-width">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://creative-community.space/coding/js/smoothscroll.js"></script>
-	<script src="https://creative-community.space/coding/org/org.js"></script>
-	<script type="text/javascript">
-		$(function() {})
-	</script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> Font Book | creative-community.pe.hu </title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://creative-community.space/coding/org/org.js"></script>
+	<script src="https://creative-community.space/coding/js/smoothscroll.js"></script>
+
 	<link rel="stylesheet" href="https://creative-community.space//coding/org/org.css" />
 	<link rel="stylesheet" href="css/font-family.css" />
-	<style type="text/css">
-		.list li .id {
-			position: absolute;
-			top: 0;
-			right: 0;
-			margin: 1rem;
-			color: #fff;
-			font-size: 50%;
-			font-family: "NewYork";
-			text-shadow: 0.1rem 0.1rem #000;
-		}
-	</style>
 </head>
 
 <body>
@@ -57,8 +38,7 @@ fclose($fp);
 	</div>
 
 	<form id="org">
-
-		<div class="search-box value">
+		<div class="search-box tag">
 			<ul>
 				<li>
 					<input type="radio" name="family" value="sans" id="sans">
@@ -83,7 +63,7 @@ fclose($fp);
 		</div>
 	</form>
 
-	<ul class="list" id="random">
+	<ul class="random" id="list">
 		<?php if (!empty($rows)) : ?>
 			<?php foreach ($rows as $row) : ?>
 				<li class="list_item list_toggle" data-family="<?= h($row[4]) ?>">
