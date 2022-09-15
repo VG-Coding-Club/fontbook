@@ -38,7 +38,7 @@ fclose($fp);
 			display: flex;
 			width: 95%;
 			height: 2.5vw;
-			bottom: 0;
+			top: 0;
 			position: sticky;
 			z-index: 100;
 			flex-direction: row;
