@@ -33,13 +33,13 @@ fclose($fp);
 	<link rel="stylesheet" href="css/font-family.css" />
 	<style type="text/css">
 		#header {
-			padding: 1.25% 2.5%;
+			padding: 2.5%;
 			font-size: 1..5vw;
 			display: flex;
 			width: 95%;
 			top: 0;
 			left: 0;
-			position: fixed;
+			position: sticky;
 			z-index: 100;
 			flex-direction: row;
 			justify-content: space-between;
