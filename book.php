@@ -32,6 +32,19 @@ fclose($fp);
 	<link rel="stylesheet" href="https://creative-community.space//coding/org/org.css" />
 	<link rel="stylesheet" href="css/font-family.css" />
 	<style type="text/css">
+		#header {
+			padding: 1.25% 2.5%;
+			font-size: 1.5rem;
+			display: flex;
+			width: 95%;
+			top: 0;
+			left: 0;
+			position: relative;
+			z-index: 100;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
 		#list li .id {
 			display: block;
 			float: right;
@@ -45,6 +58,17 @@ fclose($fp);
 </head>
 
 <body>
+	<div id="header">
+		Update
+		<i>
+			<?php
+			$mod = filemtime("book.csv");
+			date_default_timezone_set('Asia/Tokyo');
+			print "" . date("m.d.y H:i", $mod);
+			?>
+		</i>
+	</div>
+
 	<form id="org">
 		<div class="search-box tag">
 			<ul>
