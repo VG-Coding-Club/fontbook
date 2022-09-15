@@ -59,9 +59,9 @@ fclose($fp);
 </head>
 
 <body>
-	<div id="header" class="fontmotion">
+	<div id="header">
 		Update
-		<i>
+		<i class="fontmotion">
 			<?php
 			$mod = filemtime("book.csv");
 			date_default_timezone_set('Asia/Tokyo');
