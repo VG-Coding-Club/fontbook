@@ -38,7 +38,7 @@ fclose($fp);
 	</div>
 
 	<form id="org">
-		<div class="search-box tag">
+		<div class="search-box label">
 			<ul>
 				<li>
 					<input type="radio" name="family" value="sans" id="sans">
