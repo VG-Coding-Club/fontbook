@@ -99,7 +99,7 @@ fclose($fp);
 		</div>
 	</form>
 
-	<ul class="random" id="list">
+	<ul id="list">
 		<?php if (!empty($rows)) : ?>
 			<?php foreach ($rows as $row) : ?>
 				<li class="list_item list_toggle" data-family="<?= h($row[4]) ?>">
