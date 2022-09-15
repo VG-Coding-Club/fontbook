@@ -60,8 +60,8 @@ fclose($fp);
 					<label for="serif" class="click" style="font-family:serif;">serif</label>
 				</li>
 				<li>
-					<input type="radio" name="family" value="mono" id="mono">
-					<label for="mono" class="click" style="font-family:monospace;">monospace</label>
+					<input type="radio" name="family" value="monospace" id="monospace">
+					<label for="monospace" class="click" style="font-family:monospace;">monospace</label>
 				</li>
 				<li>
 					<input type="radio" name="family" value="cursive" id="cursive">
@@ -84,7 +84,7 @@ fclose($fp);
 				<li class="list_item list_toggle" data-family="<?= h($row[4]) ?>">
 					<span class="id"><?= h($row[1]) ?></span>
 					<span class="<?= h($row[1]) ?>"><?= h($row[0]) ?></span>
-					<p>by <b class="<?= h($row[1]) ?>"><?= h($row[2]) ?></b></p>
+					<p>by <b style="font-family:<?= h($row[4]) ?>;"><?= h($row[2]) ?></b></p>
 					<a href="<?= h($row[3]) ?>" target="_blank" rel="noopener noreferrer"></a>
 				</li>
 			<?php endforeach; ?>
