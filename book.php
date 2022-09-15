@@ -42,19 +42,19 @@ fclose($fp);
 			<ul>
 				<li>
 					<input type="radio" name="family" value="sans" id="sans">
-					<label for="sans" class="label" style="font-family:sans-serif;">sans-serif</label>
+					<label for="sans" class="click" style="font-family:sans-serif;">sans-serif</label>
 				</li>
 				<li>
 					<input type="radio" name="family" value="serif" id="serif">
-					<label for="serif" class="label" style="font-family:serif;">serif</label>
+					<label for="serif" class="click" style="font-family:serif;">serif</label>
 				</li>
 				<li>
 					<input type="radio" name="family" value="cursive" id="cursive">
-					<label for="cursive" class="label" style="font-family:cursive;">cursive</label>
+					<label for="cursive" class="click" style="font-family:cursive;">cursive</label>
 				</li>
 				<li>
 					<input type="radio" name="family" value="fantasy" id="fantasy">
-					<label for="fantasy" class="label" style="font-family:fantasy;">fantasy</label>
+					<label for="fantasy" class="click" style="font-family:fantasy;">fantasy</label>
 				</li>
 			</ul>
 		</div>
