@@ -34,12 +34,12 @@ fclose($fp);
 	<style type="text/css">
 		#header {
 			padding: 1.25% 2.5%;
-			font-size: 1.5rem;
+			font-size: 1..5vw;
 			display: flex;
 			width: 95%;
 			top: 0;
 			left: 0;
-			position: relative;
+			position: fixed;
 			z-index: 100;
 			flex-direction: row;
 			justify-content: space-between;
