@@ -31,10 +31,10 @@ fclose($fp);
 
 	<link rel="stylesheet" href="https://creative-community.space//coding/org/org.css" />
 	<link rel="stylesheet" href="css/font-family.css" />
-	<style>
+	<style type="text/css">
 		#list li .id {
 			display: block;
-			float:right;
+			float: right;
 			margin: 1rem;
 			color: #fff;
 			font-size: 50%;
