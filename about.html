@@ -14,6 +14,15 @@
       font-size: 2.5vw;
       padding: 0 2.5%;
     }
+
+    pre,
+    code {
+      display: block;
+      width: auto;
+      max-width: 100%;
+      font-size: 1.5vw;
+      overflow-x: auto;
+    }
   </style>
 </head>
 
@@ -22,7 +31,16 @@
     <p>
       インターネットで見つけたお気に入りのフォントのコレクション
     </p>
-    <hr/>
+    <hr />
+    <p><a href="https://developer.mozilla.org/ja/docs/Web/CSS/@font-face">@font-face</a></p>
+      <pre><code><math><![CDATA[
+@font-face {
+  font-family: "フォント名";
+  src: url("フォント URL") format("woff2"),
+        url("フォント URL") format("woff2");
+}
+]]></math></code></pre>
+      <p>利用可能なフォント形式（format）は、"woff", "woff2", "truetype", "opentype", "embedded-opentype", "svg"</p>
   </div>
 </body>
 
