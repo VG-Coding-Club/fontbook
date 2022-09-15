@@ -49,6 +49,10 @@ fclose($fp);
 					<label for="serif" class="click" style="font-family:serif;">serif</label>
 				</li>
 				<li>
+					<input type="radio" name="family" value="mono" id="mono">
+					<label for="mono" class="click" style="font-family:monospace;">monospace</label>
+				</li>
+				<li>
 					<input type="radio" name="family" value="cursive" id="cursive">
 					<label for="cursive" class="click" style="font-family:cursive;">cursive</label>
 				</li>
