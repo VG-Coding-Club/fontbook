@@ -19,42 +19,42 @@
     font-stretch: 150%;
   }
   30% {
-    font-style:oblique -30deg;
+    font-style:normal;
     font-family:fantasy;
     font-stretch: 125%;
   }
   40% {
-    font-style:normal;
+    font-style:italic;
     font-family: monospace;
     font-stretch:75%;
   }
   50% {
-    font-style:italic;
+    font-style:oblique;
     font-family: fantasy;
     font-stretch: 50%;
   }
   60% {
-    font-style:oblique 50deg;
+    font-style:normal;
     font-family: sans-serif;
     font-stretch: 100%;
   }
   70% {
-    font-style:normal;
+    font-style:italic;
     font-family: serif;
     font-stretch: 125%;
   }
   80% {
-    font-style:oblique -90deg;
+    font-style:oblique;
     font-family: cursive;
     font-stretch: 200%;
   }
   90% {
-    font-style:italic;
+    font-style:normal;
     font-family: fantasy;
     font-stretch: 150%;
   }
   100% {
-    font-style:oblique 60deg;
+    font-style:italic;
     font-family: monospace;
     font-stretch: 75%;
   }
