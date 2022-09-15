@@ -1,4 +1,5 @@
 .fontmotion {
+  line-height: 2.5vh;
   animation:2s linear infinite fontmotion;
 }
 
