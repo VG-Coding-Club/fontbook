@@ -39,7 +39,7 @@ fclose($fp);
 			width: 95%;
 			height: 2.5vw;
 			position: sticky;
-			top: 90%;
+			top: 0;
 			z-index: 100;
 			flex-direction: row;
 			justify-content: space-between;
