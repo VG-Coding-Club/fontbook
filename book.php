@@ -45,11 +45,8 @@ fclose($fp);
 </head>
 
 <body>
-	<div id="header">
-		<h1 class="fontmotion">Font Book</h1>
-	</div>
-
 	<form id="org">
+		<h1 class="fontmotion">Font Book</h1>
 		<div class="search-box tag">
 			<ul>
 				<li>
