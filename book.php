@@ -31,6 +31,17 @@ fclose($fp);
 
 	<link rel="stylesheet" href="https://creative-community.space//coding/org/org.css" />
 	<link rel="stylesheet" href="css/font-family.css" />
+	<style>
+		#list li .id {
+			display: block;
+			float:right;
+			margin: 1rem;
+			color: #fff;
+			font-size: 50%;
+			font-family: "NewYork";
+			text-shadow: 0.1rem 0.1rem #000;
+		}
+	</style>
 </head>
 
 <body>
