@@ -33,8 +33,8 @@ fclose($fp);
 	<link rel="stylesheet" href="css/font-family.css" />
 	<style type="text/css">
 		#header {
-			padding: 2.5%;
-			font-size: 1..5vw;
+			padding: 1.25% 2.5%;
+			font-size: 1.5vw;
 			display: flex;
 			width: 95%;
 			height: 2.5vw;
