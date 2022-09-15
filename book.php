@@ -46,6 +46,7 @@ fclose($fp);
 
 <body>
 	<div id="header">
+		<h1 class="fontmotion">Font Book</h1>
 	</div>
 
 	<form id="org">
