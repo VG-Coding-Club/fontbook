@@ -37,6 +37,7 @@ fclose($fp);
 			font-size: 1..5vw;
 			display: flex;
 			width: 95%;
+			height: 2.5vw;
 			top: 0;
 			left: 0;
 			position: sticky;
@@ -58,7 +59,7 @@ fclose($fp);
 </head>
 
 <body>
-	<div id="header">
+	<div id="header" class="fontmotion">
 		Update
 		<i>
 			<?php
