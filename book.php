@@ -59,14 +59,15 @@ fclose($fp);
 
 <body>
 	<div id="header">
-		Update
-		<i class="fontmotion">
+		<b>📚</b>
+		<span>Update</span>
+		<u class="fontmotion">
 			<?php
 			$mod = filemtime("book.csv");
 			date_default_timezone_set('Asia/Tokyo');
 			print "" . date("m.d.y H:i", $mod);
 			?>
-		</i>
+		</u>
 	</div>
 
 	<form id="org">
