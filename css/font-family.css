@@ -5,6 +5,12 @@
        url("https://creative-community.space/coding/fontbook/family/");
 }
 
+.SpaceMono {font-family: "SpaceMono";}
+@font-face {
+  font-family: "SpaceMono";
+  src: url("https://creative-community.space/coding/fontbook/family/SpaceMono-Regular.ttf");
+}
+
 .XanhMono {font-family: "XanhMono";}
 @font-face {
   font-family: "XanhMono";
