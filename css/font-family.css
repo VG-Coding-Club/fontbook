@@ -5,6 +5,14 @@
        url("https://creative-community.space/coding/fontbook/family/");
 }
 
+.IBMPlex {font-family: "IBMPlex";}
+@font-face {
+  font-family: "IBMPlex";
+  src: url("https://creative-community.space/coding/fontbook/family/IBM-Plex-Mono/IBMPlexMono-Medium-Latin1.woff2"),
+  src: url("https://creative-community.space/coding/fontbook/family/IBM-Plex-Mono/IBMPlexMono-Medium-Latin2.woff2"),
+  src: url("https://creative-community.space/coding/fontbook/family/IBM-Plex-Mono/IBMPlexMono-Medium-Latin3.woff2"),
+       url("https://creative-community.space/coding/fontbook/family/IBM-Plex-Mono/IBMPlexMono-Medium-Pi.woff2");
+}
 .Standard {font-family: "Standard";}
 @font-face {
   font-family: "Standard";
