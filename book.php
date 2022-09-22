@@ -45,7 +45,7 @@ fclose($fp);
 		}
 
 		#org .click {
-			font-size: 75%;
+			font-size: 95%;
 		}
 
 		#list li .id {
