@@ -31,7 +31,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://creative-community.space/coding/cover/randomcolor.js"></script>
     <script type="text/javascript">
-        $(function() {
+        $(function () {
             $("#greeting").load("book.php");
             $("#howto").load("about.html");
             $("#pc_only").load("https://creative-community.space/coding/mobile.html");
@@ -44,12 +44,14 @@
         #pc_only {
             display: none;
         }
-        
+
         @media screen and (max-width: 950px) {
+
             #left .contents,
             #right .contents {
                 display: none;
             }
+
             #pc_only {
                 display: block;
             }

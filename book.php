@@ -44,6 +44,10 @@ fclose($fp);
 			justify-content: space-between;
 		}
 
+		#org .click {
+			font-size: 75%;
+		}
+
 		#list li .id {
 			display: block;
 			float: right;
