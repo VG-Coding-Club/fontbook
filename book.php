@@ -27,12 +27,11 @@ fclose($fp);
 	<title> Font Book | creative-community.pe.hu </title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://creative-community.space/coding/org/org.js"></script>
-	<script src="https://creative-community.space/coding/js/smoothscroll.js"></script>
-
 	<link rel="stylesheet" href="https://creative-community.space//coding/org/org.css" />
 	<link rel="stylesheet" href="css/font-family.css" />
 	<style type="text/css">
 		#header {
+			font-family: "NewYork";
 			padding: 1.25% 2.5%;
 			font-size: 1.5vw;
 			display: flex;
@@ -60,7 +59,7 @@ fclose($fp);
 <body>
 	<div id="header">
 		<span>Update</span>
-		<u class="fontmotion">
+		<u>
 			<?php
 			$mod = filemtime("book.csv");
 			date_default_timezone_set('Asia/Tokyo');
