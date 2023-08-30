@@ -1,21 +1,17 @@
-NewYork,NewYork,Apple,https://developer.apple.com/fonts/,serif
-"SF Compact","SF Compact",Apple,https://developer.apple.com/fonts/,sans
-"Great Vibes",GreatVibes,Robert Leuschke,https://fonts.google.com/specimen/Great+Vibes,cursive
-Quarantype,Quarantype,fonderie.download,https://fonderie.download/,fantasy
 Immortalist,Immortalist,"Rory King",https://rorykingetc.com/,cursive
 "Orchard Linear",Orchard,"Rory King",https://rorykingetc.com/,cursive
 "Inscrutable 1.0",inscrutable,"Nick DeMarco",http://demarconia.com/inscrutable.html,cursive
 "FLORA AND FAUNA",floraandfauna,"Erik Merisalu",https://www.suvatypefoundry.ee/flora-and-fauna/,cursive
-"Times Dot",TimesDot,"Laurel Schwulst",https://www.librarystack.org/times-dot/,serif
-"AUTHENTIC Sans",AUTHENTICSans,"Christina Janus and Desmond Wong",https://authentic.website/sans,sans
+
 Kristina,Kristina,kristinabold.com,https://www.kristinabold.com/,cursive
-Wagemut,Wagemut_Outline,"Moritz Esch",https://www.moritzesch.com/wagemut,fantasy
 時刻表っぽいフォント,DiaPro,"ばっと but",https://but.tw/font/,sans
-イマジンヨコハマフォント,yokohama,イメージコレクターズ,https://www.city.yokohama.lg.jp/kanko-bunka/miryoku/openyokohama/process/torikumi/font.html,sans
+
+,serif
+,,,,sans
+
 国鉄っぽいフォント,JNRfont,旅と鉄の盲腸,http://tabi-mo.travel.coocan.jp/font.htm,sans
 美咲フォント,misaki_gothic_2nd,littlelimit,https://littlelimit.net/misaki.htm,fantasy
-IPAex明朝,ipaexm,文字情報技術促進協議会,https://moji.or.jp/ipafont/fontspec/,serif
-IPAexゴシック,ipaexg,文字情報技術促進協議会,https://moji.or.jp/ipafont/ipaex00401/,sans
+
 衡山毛筆フォント草書,kouzansousho,武蔵システム,https://opentype.jp/kouzansousho.htm,cursive
 青柳疎石フォント,aoyagisosekifont,武蔵システム,https://opentype.jp/aoyagisosekifont.htm,cursive
 Saintjean,Saintjean,"A collective",https://velvetyne.fr/fonts/saintjean/,fantasy
@@ -47,6 +43,7 @@ Typoliner,Typoliner,"Raphaël Wittmann",https://raphaelwittmann.net/typoliner-rw
 Movement,Movement_Desktop,"NM type",https://www.nmtype.com/movement/,cursive
 emotional,emotional,"Promphan Suksumek",http://www.emotionaltype.org/,sans
 "Violet Sans",VioletSans,"Violet Office",https://violetoffice.com/work/violet-sans,sans
-"IBM Plex®",IBMPlex,IBM,https://www.ibm.com/plex/,monospace
+
+"",,,,
 "Xanh Mono",XanhMono,"Yellow Type, Lam Bao, Duy Dao",https://fonts.google.com/specimen/Xanh+Mono,monospace
 "Space Mono",SpaceMono,"Colophon",https://fonts.google.com/specimen/Space+Mono,monospace

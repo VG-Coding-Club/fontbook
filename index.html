@@ -3,82 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-
-    <title>Font Book | creative-community.space</title>
-    <meta name="description" content="このウェブサイトに、これまでに制作したウェブサイトのコードを記録します。">
-
-    <meta property="og:title" content="Font Book | creative-community.space" />
-    <meta property="og:description" content="このウェブサイトに、これまでに制作したウェブサイトのコードを記録します。" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://creative-community.space/coding/fontbook/" />
-    <meta property="og:site_name" content="creative-community.space" />
-    <meta property="og:image" content="サムネイル画像のURL" />
-    <meta property="og:locale" content="ja_JP" />
-
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@pe_hu_" />
-    <meta name="twitter:image" content="サムネイル画像のURL" />
-
-    <meta name="author" content="creative-community.space">
-    <meta name="reply-to" content="pehu@creative-community.space">
-
-    <link rel="icon" href="ファビコン画像のURL (ICO,ONG,GIF)">
-    <link rel="apple-touch-icon" href="ホーム画面アイコンのURL 180×180px (PNG,JPG,GIF)">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://creative-community.space/coding/cover/randomcolor.js"></script>
-    <script type="text/javascript">
-        $(function () {
-            $("#greeting").load("book.php");
-            $("#howto").load("about.html");
-            $("#pc_only").load("https://creative-community.space/coding/mobile.html");
-        })
-    </script>
-    <link rel="stylesheet" href="https://creative-community.space/coding/cover/style.css" />
-    <link rel="stylesheet" href="https://creative-community.space/coding/hello/close_open.css" />
-    <link rel="stylesheet" href="css/fontmotion.css" />
-    <style type="text/css">
-        #pc_only {
-            display: none;
-        }
-
-        @media screen and (max-width: 950px) {
-
-            #left .contents,
-            #right .contents {
-                display: none;
-            }
-
-            #pc_only {
-                display: block;
-            }
-        }
-    </style>
-    <script>
-        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-            redirect: window.location.replace("book.php");
-        }
-    </script>
+    <script async src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/font-family.css">
 </head>
 
 <body>
-    <h1 id="title" class="fontmotion">Font Book</h1>
-    <div id="cover">
-        <div id="left">
-            <div class="contents">
-                <div id="greeting"></div>
-            </div>
-            <div id="pc_only"></div>
-        </div>
-        <div id="right">
-            <div class="contents">
-                <div id="howto"></div>
-            </div>
-        </div>
-    </div>
+    <header>
+        <h1 id="title">Font Book</h1>
+        <h2 id="description"></h2>
+        <nav id="org"></nav>
+    </header>
+
+    <main id="things"></main>
 </body>
 
 </html>

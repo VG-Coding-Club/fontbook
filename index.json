@@ -1,0 +1,159 @@
+{
+  "title": "Font Book",
+  "description": "___",
+  "author": "Very Gois",
+  "email": "sorryforthedelayinsending@vg.pe.hu",
+  "type": "website",
+  "src": "icon.png",
+  "icon": "icon.png",
+  
+  "org": [
+    {
+      "id": "sans-serif",
+      "name": "Sans-Serif"
+    },
+    {
+      "id": "serif",
+      "name": "Serif"
+    },
+    {
+      "id": "monospace",
+      "name": "Monospace"
+    },
+    {
+      "id": "cursive",
+      "name": "Cursive"
+    },
+    {
+      "id": "fantasy",
+      "name": "Fantasy"
+    },
+    {
+      "id": "all",
+      "name": "View All"
+    }
+  ],
+
+  "things": [
+    {
+      "org": "sans-serif",
+      "name": "SF Compact",
+      "class": "SFCompact",
+      "by": "Apple",
+      "link": "https://developer.apple.com/fonts/",
+      "description": "Sharing many features with SF Pro, SF Compact features an efficient, compact design that is optimized for small sizes and narrow columns. SF Compact is the system font for watchOS and includes a rounded variant."
+    },
+    {
+      "org": "serif",
+      "name": "New York",
+      "class": "NewYork",
+      "by": "Apple",
+      "link": "https://developer.apple.com/fonts/",
+      "description": "A companion to San Francisco, this serif typeface is based on essential aspects of historical type styles. New York features six weights, supports Latin, Greek, and Cyrillic scripts, and features variable optical sizes allowing it to perform as a traditional reading face at small sizes and a graphic display face at larger sizes."
+    },
+    {
+      "org": "cursive",
+      "name": "Great Vibes",
+      "class": "GreatVibes",
+      "by": "Robert Leuschke",
+      "link": "https://fonts.google.com/specimen/Great+Vibes",
+      "description": "Great Vibes is a beautifully flowing script with casual uppercase forms combined with more formal lowercase letters."
+    },
+    {
+      "org": "serif",
+      "name": "IPAフォント",
+      "class": "ipam",
+      "by": "文字情報技術促進協議会",
+      "link": "https://moji.or.jp/ipafont/ipaex00401/",
+      "description": "IPAフォント(Ver.003)は、明朝体とゴシック体があり、それぞれに等幅／プロポーショナルの2種類、計4書体を用意しています。"
+    },
+    {
+      "org": "sans-serif",
+      "name": "IPAexゴシック",
+      "class": "ipaexg",
+      "by": "文字情報技術促進協議会",
+      "link": "https://moji.or.jp/ipafont/fontspec/",
+      "description": "「IPAexフォント」は、和文文字（仮名や漢字など）は固定幅、欧文文字は文字幅に合わせた変動幅を基本とした実装を行い、日本語文書作成の利便性の向上を目指したフォントです。"
+    },
+    {
+      "org": "monospace",
+      "name": "IBM Plex®",
+      "class": "IBMPlex",
+      "by": "IBM",
+      "link": "https://www.ibm.com/plex/",
+      "description": "IBM Plex® is our new typeface. It’s global, it’s versatile and it’s distinctly IBM."
+    },
+    {
+      "org": "serif",
+      "name": "Times Dot",
+      "class": "TimesDot",
+      "by": "Laurel Schwulst",
+      "link": "https://www.librarystack.org/times-dot/",
+      "description": "Times Dot is a version of Times New Roman whose “i” and “j” dots have been enlarged by 190%."
+    },
+    {
+      "org": "sans-serif",
+      "name": "AUTHENTIC Sans",
+      "class": "AUTHENTICSans",
+      "by": "Christina Janus and Desmond Wong",
+      "link": "https://authentic.website/sans",
+      "description": "AUTHENTIC Sans is a reflection of the studio praxis: expanding and redefining the visual and cultural boundaries of default systems. The typeface was first used on the booth poster for Cooperative Editions and Common Satisfactory Standard at the 2015 NY Art Book Fair."
+    },
+    {
+      "org": "sans-serif",
+      "name": "Din 1451 Alt",
+      "class": "Din",
+      "by": "Peter Wiegel",
+      "link": "https://www.peter-wiegel.de/alteDin1451.html",
+      "description": "Die in DIN 1451 genormte Schrift ist in Deutschland die Standardschrift für alles, was mit Verkehr zu tun hat - na ja, dem ehelichen mal ausgenommen :-) - und wird ähnlich auch in Österreich und sogar in Griechenland (dort jedoch natürlich mit griechischen Buchstaben) verwendet."
+    },
+    {
+      "org": "sans-serif",
+      "name": "イマジンヨコハマフォント",
+      "class": "yokohama",
+      "by": "イメージコレクターズ",
+      "link": "https://www.city.yokohama.lg.jp/kanko-bunka/miryoku/openyokohama/process/torikumi/font.html",
+      "description": "横浜のイメージから、「上品、スマート、おしゃれ」「伝統、文化がそこはかとなく感じられる」「古さと新しさの共存」「おしゃれだけど身近さ（どんくささ）がある」「きゃしゃ、さっぱり、さらさらしているけどしっかりしている、自己主張がある」「品格がある」「流れる感じ（港や船の印象から…）、リズム感」をキーワードに誕生した 横浜独自のフォント"
+    },
+    {
+      "org": "fantasy",
+      "name": "Wagemut",
+      "class": "Wagemut_Outline",
+      "by": "Moritz Esch",
+      "link": "https://www.moritzesch.com/wagemut",
+      "description": "Im Rahmen meiner Bachelor-Abschlussarbeit habe ich die Display-Font 'WAGEMUT' zusammen mit einigen Anwendungsbeispielen angefertigt."
+    },
+    {
+      "org": "___",
+      "name": "___",
+      "class": "___",
+      "by": "___",
+      "link": "___",
+      "description": "___"
+    },
+    {
+      "org": "fantasy",
+      "name": "Quarantype",
+      "class": "Quarantype",
+      "by": "fonderie.download",
+      "link": "https://fonderie.download/",
+      "description": "fonderie.download is your new favorite website. We design and distribute typefaces."
+    },
+    {
+      "org": "cursive",
+      "name": "Crédible",
+      "class": "credible",
+      "by": "fonderie.download",
+      "link": "https://fonderie.download/",
+      "description": "fonderie.download is your new favorite website. We design and distribute typefaces."
+    },
+    {
+      "org": "___",
+      "name": "___",
+      "class": "___",
+      "by": "___",
+      "link": "___",
+      "description": "___"
+    }
+  ]
+}
