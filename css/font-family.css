@@ -1,4 +1,106 @@
 @font-face {
+  font-family: "San Francisco";
+  src: url("../family/SF/Compact-Text-Regular.otf"),
+    url("../family/SF/UI-Display-Regular.otf");
+}
+
+.SFCompact {
+  font-family: "San Francisco", sans-serif;
+}
+
+@font-face {
+  font-family: "New York";
+  src: url("../family/NewYork.otf");
+}
+
+.NewYork {
+  font-family: "New York", serif;
+}
+
+@font-face {
+  font-family: "Great Vibes";
+  src: url("../family/GreatVibes-Regular.ttf");
+}
+
+.GreatVibes {
+  font-family: "Great Vibes", fantasy;
+}
+
+@font-face {
+  font-family: "IPA Mincho";
+  src: url("../family/IPA/ipamp.ttf"),
+    url("../family/IPA/ipam.ttf");
+}
+
+.ipam {
+  font-family: "IPA Mincho", serif;
+}
+
+@font-face {
+  font-family: "IPAexゴシック";
+  src: url("../family/IPAex/ipaexg.ttf");
+}
+
+.ipaexg {
+  font-family: "IPAexゴシック", sans-serif;
+}
+
+@font-face {
+  font-family: "IBM Plex";
+  src: url("../family/IBM-Plex-Mono/Medium-Latin1.woff2"),
+    url("../family/IBM-Plex-Mono/Medium-Latin2.woff2"),
+    url("../family/IBM-Plex-Mono/Medium-Latin3.woff2"),
+    url("../family/IBM-Plex-Mono/Medium-Pi.woff2");
+}
+
+.IBMPlex {
+  font-family: "IBM Plex", monospace;
+}
+
+@font-face {
+  font-family: "Times Dot";
+  src: url("../family/times-dot/TimesDotRom.otf"),
+    url("../family/times-dot/TimesDotBol.otf"),
+    url("../family/times-dot/TimesDot-Italic.otf");
+}
+
+.TimesDot {
+  font-family: "Times Dot", serif;
+}
+
+@font-face {
+  font-family: "AUTHENTIC Sans";
+  src: url("../family/authentic_sans/AUTHENTICSans-60.otf"),
+    url("../family/authentic_sans/AUTHENTICSans-90.otf"),
+    url("../family/authentic_sans/AUTHENTICSans-90.woff"),
+    url("../family/authentic_sans/AUTHENTICSans-90.woff2");
+}
+
+.AUTHENTICSans {
+  font-family: "AUTHENTIC Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "Din";
+  src: url("../family/din/din1451alt.ttf"),
+    url("../family/din/din1451alt_G.ttf");
+}
+
+.Din {
+  font-family: "Din", sans-serif;
+}
+
+@font-face {
+  font-family: "imagine YOKOHAMA";
+  src: url("../family/imagineYOKOHAMA.otf");
+}
+
+.yokohama {
+  font-family: "imagine YOKOHAMA", sans-serif;
+}
+
+
+@font-face {
   font-family: "class";
   src: url("../family/"),
     url("../family/");
@@ -8,15 +110,7 @@
   font-family: "class";
 }
 
-@font-face {
-  font-family: "credible";
-  src: url("../family/credible/Crédible-Regular.otf"),
-    url("../family/credible/Crédible-Regular.woff");
-}
 
-.credible {
-  font-family: "credible", cursive;
-}
 
 @font-face {
   font-family: "Quarantype";
@@ -29,12 +123,13 @@
 }
 
 @font-face {
-  font-family: "imagine YOKOHAMA";
-  src: url("../family/imagineYOKOHAMA.otf");
+  font-family: "credible";
+  src: url("../family/credible/Crédible-Regular.otf"),
+    url("../family/credible/Crédible-Regular.woff");
 }
 
-.yokohama {
-  font-family: "imagine YOKOHAMA", sans-serif;
+.credible {
+  font-family: "credible", cursive;
 }
 
 @font-face {
@@ -64,94 +159,13 @@
   font-family: "Wagemut_Ephemer", fantasy;
 }
 
-@font-face {
-  font-family: "Din";
-  src: url("../family/din/din1451alt.ttf"),
-    url("../family/din/din1451alt_G.ttf");
-}
-
-.Din {
-  font-family: "Din", sans-serif;
-}
 
 @font-face {
-  font-family: "Times Dot";
-  src: url("../family/times-dot/TimesDotRom.otf"),
-    url("../family/times-dot/TimesDotBol.otf"),
-    url("../family/times-dot/TimesDot-Italic.otf");
+  font-family: "class";
+  src: url("../family/"),
+    url("../family/");
 }
 
-.TimesDot {
-  font-family: "Times Dot", serif;
-}
-
-@font-face {
-  font-family: "AUTHENTIC Sans";
-  src: url("../family/authentic_sans/AUTHENTICSans-60.otf"),
-    url("../family/authentic_sans/AUTHENTICSans-90.otf"),
-    url("../family/authentic_sans/AUTHENTICSans-90.woff"),
-    url("../family/authentic_sans/AUTHENTICSans-90.woff2");
-}
-
-.AUTHENTICSans {
-  font-family: "AUTHENTIC Sans", sans-serif;
-}
-
-@font-face {
-  font-family: "IBM Plex";
-  src: url("../family/IBM-Plex-Mono/Medium-Latin1.woff2"),
-    url("../family/IBM-Plex-Mono/Medium-Latin2.woff2"),
-    url("../family/IBM-Plex-Mono/Medium-Latin3.woff2"),
-    url("../family/IBM-Plex-Mono/Medium-Pi.woff2");
-}
-
-.IBMPlex {
-  font-family: "IBM Plex", monospace;
-}
-
-@font-face {
-  font-family: "IPAexゴシック";
-  src: url("../family/IPAex/ipaexg.ttf");
-}
-
-.ipaexg {
-  font-family: "IPAexゴシック", sans-serif;
-}
-
-@font-face {
-  font-family: "IPA Mincho";
-  src: url("../family/IPA/ipamp.ttf"),
-    url("../family/IPA/ipam.ttf");
-}
-
-.ipam {
-  font-family: "IPA Mincho", serif;
-}
-
-@font-face {
-  font-family: "Great Vibes";
-  src: url("../family/GreatVibes-Regular.ttf");
-}
-
-.GreatVibes {
-  font-family: "Great Vibes", fantasy;
-}
-
-@font-face {
-  font-family: "San Francisco";
-  src: url("../family/SF/Compact-Text-Regular.otf"),
-    url("../family/SF/UI-Display-Regular.otf");
-}
-
-.SFCompact {
-  font-family: "San Francisco", sans-serif;
-}
-
-@font-face {
-  font-family: "New York";
-  src: url("../family/NewYork.otf");
-}
-
-.NewYork {
-  font-family: "New York", serif;
+.id {
+  font-family: "class";
 }
