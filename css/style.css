@@ -1,3 +1,88 @@
+html {
+    font-size: 16px;
+    height: -webkit-fill-available;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+main ul li.hidden {
+    display: none;
+}
+
+body,
+header nav {
+    padding: 0;
+    margin: 0;
+}
+
+header,
+#description,
+#things ul {
+    padding: 0.5rem;
+    margin: 0;
+}
+
+#title,
+input[type="radio"]+label,
+#things ul li {
+    padding: 0.25rem;
+    margin: 0 0.25rem;
+}
+
+input[type="radio"]+label {
+    text-decoration: double underline;
+}
+
+#things ul li {
+    overflow: hidden;
+    list-style: none;
+}
+
+header nav,
+#things ul {
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#things ul li {
+    width: calc(100% / 2 - 0.5rem);
+    max-width: 300px;
+}
+
+input[type="radio"]+label {
+    text-transform: uppercase;
+}
+
+#title {
+    float: left;
+}
+
+#description {
+    float: right;
+}
+
+#things ul h3 {
+    font-size: 175%;
+}
+
+#title {
+    font-size: 150%;
+}
+
+#description {
+    font-size: 125%;
+}
+
+#things ul h3 small {
+    font-size: 55%;
+    font-weight: 100;
+}
+
 .sans-serif {
     font-family: sans-serif;
 }

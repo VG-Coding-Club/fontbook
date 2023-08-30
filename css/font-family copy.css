@@ -1,35 +1,4 @@
-.id {font-family: "id";}
-@font-face {
-  font-family: "id";
-  src: url("https://creative-community.space/coding/fontbook/family/"),
-       url("https://creative-community.space/coding/fontbook/family/");
-}
 
-.SpaceMono {font-family: "SpaceMono";}
-@font-face {
-  font-family: "SpaceMono";
-  src: url("https://creative-community.space/coding/fontbook/family/SpaceMono-Regular.ttf");
-}
-
-.XanhMono {font-family: "XanhMono";}
-@font-face {
-  font-family: "XanhMono";
-  src: url("https://creative-community.space/coding/fontbook/family/XanhMono-Regular.ttf");
-}
-
-.IBMPlex {font-family: "IBMPlex";}
-@font-face {
-  font-family: "IBMPlex";
-  src: url("https://creative-community.space/coding/fontbook/family/IBM-Plex-Mono/IBMPlexMono-Medium-Latin1.woff2"),
-  url("https://creative-community.space/coding/fontbook/family/IBM-Plex-Mono/IBMPlexMono-Medium-Latin2.woff2"),
-  url("https://creative-community.space/coding/fontbook/family/IBM-Plex-Mono/IBMPlexMono-Medium-Latin3.woff2"),
-  url("https://creative-community.space/coding/fontbook/family/IBM-Plex-Mono/IBMPlexMono-Medium-Pi.woff2");
-}
-.Standard {font-family: "Standard";}
-@font-face {
-  font-family: "Standard";
-  src: url("https://creative-community.space/coding/fontbook/family/standard-book.otf");
-}
 .MSMincho {font-family: "MSMincho", "MS Mincho", sans-serif;}
 @font-face {
   font-family: "MSMincho", "MS Mincho";
@@ -40,20 +9,10 @@
   font-family: "MSGothic";
   src: url("https://creative-community.space/coding/fontbook/family/MS Gothic.ttf");
 }
-.GreatVibes {font-family: "GreatVibes";}
-@font-face {
-  font-family: "GreatVibes";
-  src: url("https://creative-community.space/coding/fontbook/family/GreatVibes-Regular.ttf");
-}
-.GoodGlyphs {font-family: "GoodGlyphs";}
-@font-face {
-  font-family: "GoodGlyphs";
-  src: url("https://creative-community.space/coding/fontbook/family/GoodGlyphs-No1.woff"),;
-}
 .Garamondt {font-family: "Garamondt";}
 @font-face {
   font-family: "Garamondt";
-  src: url("https://creative-community.space/coding/fontbook/family/MS Mincho.ttf");
+  src: url("https://creative-community.space/coding/fontbook/family/Garamondt-Italic.otf");
 }
 .Slash {font-family: "Slash";}
 @font-face {

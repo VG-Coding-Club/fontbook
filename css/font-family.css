@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: "Great Vibes";
-  src: url("../family/GreatVibes-Regular.ttf");
+  src: url("../family/GFonts/GreatVibes-Regular.ttf");
 }
 
 .GreatVibes {
@@ -91,6 +91,110 @@
 }
 
 @font-face {
+  font-family: "TCA";
+  src: url("../family/brycewilner/TCA.otf");
+}
+
+.TCA {
+  font-family: "TCA", monospace;
+}
+
+@font-face {
+  font-family: "Section";
+  src: url("../family/brycewilner/Section-0.otf"),
+    url("../family/brycewilner/Section-90.otf"),
+    url("../family/brycewilner/Section-180.otf"),
+    url("../family/brycewilner/Section-270.otf");
+}
+
+.Section {
+  font-family: "Section", fantasy;
+}
+
+@font-face {
+  font-family: "Standard";
+  src: url("../family/brycewilner/standard-book.otf"),
+    url("../family/brycewilner/standard-book-italic.otf"),
+    url("../family/brycewilner/standard-bold.otf"),
+    url("../family/brycewilner/standard-bold-italic.otf");
+}
+
+.Standard {
+  font-family: "Standard", sans-serif;
+}
+
+@font-face {
+  font-family: "Avara";
+  src: url("../family/Avara-Black.ttf");
+}
+
+.Avara {
+  font-family: "Avara", serif;
+}
+
+@font-face {
+  font-family: "DiaPro";
+  src: url("../family/DiaPro/DiaPro-Regular.eot"),
+  url("../family/DiaPro/DiaPro-Regular.otf"),
+  url("../family/DiaPro/DiaPro-Regular.woff");
+}
+
+.DiaPro {
+  font-family: "DiaPro", sans-serif;
+}
+
+@font-face {
+  font-family: "JNRfont";
+  src: url("../family/JNRfont/JNRfont_n.ttf"),
+  url("../family/JNRfont/JNRfont_s.ttf");
+}
+
+.JNRfont {
+  font-family: "JNRfont", sans-serif;
+}
+
+@font-face {
+  font-family: "Kikai Chokoku";
+  src: url("../family/ki-cho-jis/KikaiChokokuJIS-Md.otf"),
+  url("../family/ki-cho-jis/KikaiChokokuJIS-CnKn.otf"),
+  url("../family/ki-cho-jis/KikaiChokokuJIS-XCnKn.otf");
+}
+
+.Kikai {
+  font-family: "Kikai Chokoku", sans-serif;
+}
+
+@font-face {
+  font-family: "Cobra";
+  src: url("../family/Cobra/CobraFont.otf"),
+  url("../family/Cobra/CobraFont.ttf");
+}
+
+.Cobra {
+  font-family: "Cobra", sans-serif;
+}
+
+@font-face {
+  font-family: "Commando";
+  src: url("../family/Commando/CommandoFont.otf"),
+  url("../family/Commando/CommandoFont.ttf");
+}
+
+.Commando {
+  font-family: "Commando", sans-serif;
+}
+
+@font-face {
+  font-family: "misaki_gothic";
+  src: url("../family/misaki/misaki_gothic_2nd.ttf"),
+  url("../family/misaki/misaki_gothic.ttf");
+}
+
+.misaki_gothic {
+  font-family: "misaki_gothic", sans-serif;
+}
+
+@font-face {
   font-family: "imagine YOKOHAMA";
   src: url("../family/imagineYOKOHAMA.otf");
 }
@@ -99,18 +203,164 @@
   font-family: "imagine YOKOHAMA", sans-serif;
 }
 
+@font-face {
+  font-family: "kouzansousho";
+  src: url("../family/musashi/kouzansousho.otf");
+}
+
+.kouzansousho {
+  font-family: "kouzansousho", sans-serif;
+}
 
 @font-face {
-  font-family: "class";
-  src: url("../family/"),
-    url("../family/");
+  font-family: "aoyagisoseki";
+  src: url("../family/musashi/aoyagisosekifont.otf");
 }
 
-.id {
-  font-family: "class";
+.aoyagisoseki {
+  font-family: "aoyagisoseki", sans-serif;
 }
 
+@font-face {
+  font-family: "inscrutable";
+  src: url("../family/inscrutable.otf");
+}
 
+.inscrutable {
+  font-family: "inscrutable", cursive;
+}
+
+@font-face {
+  font-family: "Immortalist";
+  src: url("../family/roryking/Immortalist-Light.otf");
+}
+
+.Immortalist {
+  font-family: "Immortalist", cursive;
+}
+
+@font-face {
+  font-family: "Orchard Linear";
+  src: url("../family/roryking/Orchard-Linear.otf");
+}
+
+.Orchard {
+  font-family: "Orchard Linear", cursive;
+}
+
+@font-face {
+  font-family: "Kristina";
+  src: url("../family/Kristina/Kristina.Fine.otf"),
+  url("../family/Kristina/Kristina.Bold.otf");
+}
+
+.Kristina {
+  font-family: "Kristina", cursive;
+}
+
+@font-face {
+  font-family: "Pecita";
+  src: url("../family/Pecita.otf");
+}
+
+.pecita {
+  font-family: "Pecita", sans-serif;
+}
+
+@font-face {
+  font-family: "emotional";
+  src: url("../family/emotional/emotional-VF.ttf");
+}
+
+.emotional {
+  font-family: "emotional", fantasy;
+}
+
+@font-face {
+  font-family: "Uncut Sans";
+  src: url("../family/uncut/sans/UncutSans-Variable.ttf"),
+  url("../family/uncut/sans/UncutSans-Light.otf"),
+  url("../family/uncut/sans/UncutSans-LightItalic.otf"),
+  url("../family/uncut/sans/UncutSans-Medium.otf"),
+  url("../family/uncut/sans/UncutSans-MediumItalic.otf"),
+  url("../family/uncut/sans/UncutSans-Regular.otf"),
+  url("../family/uncut/sans/UncutSans-RegularItalic.otf"),
+  url("../family/uncut/sans/UncutSans-Book.otf"),
+  url("../family/uncut/sans/UncutSans-BookItalic.otf"),
+  url("../family/uncut/sans/UncutSans-Bold.otf"),
+  url("../family/uncut/sans/UncutSans-BoldItalic.otf"),
+  url("../family/uncut/sans/UncutSans-Semibold.otf"),
+  url("../family/uncut/sans/UncutSans-SemiboldItalic.otf");
+}
+
+.uncut-sans {
+  font-family: "Uncut Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "Milkman";
+  src: url("../family/uncut/milkman.ttf");
+}
+
+.milkman {
+  font-family: "Milkman", sans-serif;
+}
+
+@font-face {
+  font-family: "Instrument Serif";
+  src: url("../family/uncut/instrument-serif/InstrumentSerif-Regular.otf"),
+  url("../family/uncut/instrument-serif/InstrumentSerif-Regular.ttf"),
+  url("../family/uncut/instrument-serif/InstrumentSerif-Regular.woff2"),
+  url("../family/uncut/instrument-serif/InstrumentSerif-Italic.otf"),
+  url("../family/uncut/instrument-serif/InstrumentSerif-Italic.ttf"),
+  url("../family/uncut/instrument-serif/InstrumentSerif-Italic.woff2");
+}
+
+.instrument-serif {
+  font-family: "Instrument Serif", serif;
+}
+
+@font-face {
+  font-family: "Whois";
+  src: url("../family/uncut/Whois-mono/whois-mono.ttf"),
+  url("../family/uncut/Whois-mono/whois-mono.eot"),
+  url("../family/uncut/Whois-mono/whois-mono.woff"),
+  url("../family/uncut/Whois-mono/whois-mono.svg");
+}
+
+.whois {
+  font-family: "Whois", monospace;
+}
+
+@font-face {
+  font-family: "Saint";
+  src: url("../family/uncut/SaintRegular.ttf");
+}
+
+.saint-font {
+  font-family: "Saint", fantasy;
+}
+
+@font-face {
+  font-family: "Violet Sans";
+  src: url("../family/violet/VioletSans-Regular.otf"),
+  url("../family/violet/VioletSans-Regular.ttf"),
+  url("../family/violet//VioletSans-Regular.woff"),
+  url("../family/violet/VioletSans-Regular.woff2");
+}
+
+.VioletSans {
+  font-family: "Violet Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "Good Glyphs";
+  src: url("../family/violet/GoodGlyphs-No1.woff");
+}
+
+.GoodGlyphs {
+  font-family: "Good Glyphs", fantasy;
+}
 
 @font-face {
   font-family: "Quarantype";
@@ -123,6 +373,54 @@
 }
 
 @font-face {
+  font-family: "Saintjean";
+  src: url("../family/velvetyne/Saintjean-Regular.otf");
+}
+
+.Saintjean {
+  font-family: "Saintjean", fantasy;
+}
+
+@font-face {
+  font-family: "Typefesse";
+  src: url("../family/velvetyne/Typefesse.otf");
+}
+
+.Typefesse {
+  font-family: "Typefesse", fantasy;
+}
+
+@font-face {
+  font-family: "MESS";
+  src: url("../family/velvetyne/Mess.otf");
+}
+
+.MESS {
+  font-family: "MESS", fantasy;
+}
+
+@font-face {
+  font-family: "kaerukaeru";
+  src: url("../family/velvetyne/kaerukaeru-Regular.otf");
+}
+
+.kaerukaeru {
+  font-family: "kaerukaeru", fantasy;
+}
+
+@font-face {
+  font-family: "Pilowlava";
+  src: url("../family/velvetyne/pilowlava/Pilowlava-Regular.eot"),
+  url("../family/velvetyne/pilowlava/Pilowlava-Regular.otf"),
+  url("../family/velvetyne/pilowlava/Pilowlava-Regular.woff"),
+  url("../family/velvetyne/pilowlava/Pilowlava-Regular.woff2");
+}
+
+.pilowlava {
+  font-family: "Pilowlava", fantasy;
+}
+
+@font-face {
   font-family: "credible";
   src: url("../family/credible/Crédible-Regular.otf"),
     url("../family/credible/Crédible-Regular.woff");
@@ -130,6 +428,34 @@
 
 .credible {
   font-family: "credible", cursive;
+}
+
+@font-face {
+  font-family: "Jabin";
+  src: url("../family/fridamedrano/Jabin-Typeface.ttf"),
+  url("../family/fridamedrano/Jabin-Typeface.woff2");
+}
+
+.Jabin {
+  font-family: "Jabin", fantasy;
+}
+
+@font-face {
+  font-family: "Heritage";
+  src: url("../family/schrier/Heritage-Display.otf");
+}
+
+.Heritage {
+  font-family: "Heritage";
+}
+
+@font-face {
+  font-family: "JSPRDISPLAY";
+  src: url("../family/schrier/JSPRDISPLAY_2021.otf");
+}
+
+.JSPRDISPLAY {
+  font-family: "JSPRDISPLAY";
 }
 
 @font-face {
@@ -157,6 +483,34 @@
 
 .Wagemut_Ephemer {
   font-family: "Wagemut_Ephemer", fantasy;
+}
+
+
+@font-face {
+  font-family: "UNKNOWN";
+  src: url("../family/Unknown-RND.ttf");
+}
+
+.UNKNOWN {
+  font-family: "UNKNOWN", fantasy;
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("../family/GFonts/SpaceMono-Regular.ttf");
+}
+
+.SpaceMono {
+  font-family: "Space Mono", monospace;
+}
+
+@font-face {
+  font-family: "Xanh Mono";
+  src: url("../family/GFonts/XanhMono-Regular.ttf");
+}
+
+.XanhMono {
+  font-family: "Xanh Mono", monospace;
 }
 
 

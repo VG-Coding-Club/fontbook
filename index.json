@@ -109,6 +109,86 @@
     },
     {
       "org": "sans-serif",
+      "name": "Standard",
+      "class": "Standard",
+      "by": "Bryce Wilner",
+      "link": "https://github.com/brycewilner/Standard",
+      "description": "Standard is a sans-serif font family that includes 4 styles (2 weights Book and Bold, with mathing italics). It has extensive language support, covering all languages that use the Latin script (includes a full set of diacritics)."
+    },
+    {
+      "org": "fantasy",
+      "name": "Section",
+      "class": "Section",
+      "by": "Bryce Wilner",
+      "link": "https://github.com/brycewilner/Section",
+      "description": "A font in four rotations | Designed using Robofont"
+    },
+    {
+      "org": "monospace",
+      "name": "TCA",
+      "class": "TCA",
+      "by": "Bryce Wilner",
+      "link": "https://github.com/brycewilner/TCA",
+      "description": "Designed by Eli Adams, Diedre Corrigan, Baylee Champion, Ben Medina, Richard Medina, Amaya Mensinger, and Christopher Molina during a typography workshop hosted by Mollie Edgar and Bryce Wilner at the Museum of Contemporary Art Chicago on November 15, 2014."
+    },
+    {
+      "org": "serif",
+      "name": "Avara",
+      "class": "Avara",
+      "by": "Raphaël Bastide",
+      "link": "https://raphaelbastide.com/avara/",
+      "description": "Avara is a libre transitional serif curveless font based on a square grid."
+    },
+    {
+      "org": "sans-serif",
+      "name": "時刻表っぽいフォント",
+      "class": "DiaPro",
+      "by": "ばっと but",
+      "link": "https://but.tw/font/",
+      "description": "時刻表風の数字や記号などを集めたフォントです。 直接例を見ればわかりやすい。たとえば下の表は一切の画像を使うことなく、Web Font だけで組まれています。"
+    },
+    {
+      "org": "sans-serif",
+      "name": "国鉄っぽいフォント",
+      "class": "JNRfont",
+      "by": "旅と鉄の盲腸",
+      "link": "http://tabi-mo.travel.coocan.jp/font.htm",
+      "description": "こちらは国鉄風フォントはじめ、フォントのダウンロードのページです。ここでは複数の書体をご紹介しています。いずれも国鉄時代に使われた字体や、少々の懐かしさを感じる字体たちです。"
+    },
+    {
+      "org": "sans-serif",
+      "name": "機械彫刻用標準書体",
+      "class": "Kikai",
+      "by": "Kim",
+      "link": "https://font.kim/",
+      "description": "機械彫刻用標準書体は、工業的な彫刻によって文字を作製するときの標準として、日本産業規格（JIS／旧日本工業規格）に定められた書体です。工業彫刻における技術的制約から、独特な機能美を持っています。"
+    },
+    {
+      "org": "fantasy",
+      "name": "コブラフォント",
+      "class": "Cobra",
+      "by": "えばやん",
+      "link": "https://webayan39.com/font/20/",
+      "description": "コブラフォントは、『スペースコブラ』のタイトルロゴをベースに制作したカナフォントです。多少手を加える必要はありますが、比較的簡単にロゴの再現が可能となっております。"
+    },
+    {
+      "org": "fantasy",
+      "name": "コマンドーフォント",
+      "class": "Commando",
+      "by": "えばやん",
+      "link": "https://webayan39.com/font/23/",
+      "description": "コマンドーフォントは、『コマンドー』日本語版タイトルロゴをベースに制作したカナフォントです。文字を並べるだけでも充分コマンドー感が出ると思います。"
+    },
+    {
+      "org": "fantasy",
+      "name": "美咲フォント",
+      "class": "misaki_gothic",
+      "by": "門真 なむ",
+      "link": "https://littlelimit.net/misaki.htm",
+      "description": "美咲フォントは 8×8 ドットの日本語ビットマップフォントです。 JIS 第一・第二水準をサポートしています。 一部の記号を除いた全ての文字は 7×7 ドットの範囲に収まっているため、 文字同士を隣接させても行間・字間が確保できます。 "
+    },
+    {
+      "org": "serif",
       "name": "イマジンヨコハマフォント",
       "class": "yokohama",
       "by": "イメージコレクターズ",
@@ -116,12 +196,132 @@
       "description": "横浜のイメージから、「上品、スマート、おしゃれ」「伝統、文化がそこはかとなく感じられる」「古さと新しさの共存」「おしゃれだけど身近さ（どんくささ）がある」「きゃしゃ、さっぱり、さらさらしているけどしっかりしている、自己主張がある」「品格がある」「流れる感じ（港や船の印象から…）、リズム感」をキーワードに誕生した 横浜独自のフォント"
     },
     {
-      "org": "___",
-      "name": "___",
-      "class": "___",
-      "by": "___",
-      "link": "___",
-      "description": "___"
+      "org": "cursive",
+      "name": "衡山毛筆フォント草書",
+      "class": "kouzansousho",
+      "by": "武蔵システム",
+      "link": "https://opentype.jp/kouzansousho.htm",
+      "description": "書家の青柳衡山先生が揮毫及び作成されたフォントです。JIS非漢字、JIS第一水準漢字、JIS第二水準漢字が収録されています。無料でご利用できます。商用利用可能で制限はありません。ロゴ等へも自由にご利用いただけます。"
+    },
+    {
+      "org": "cursive",
+      "name": "青柳疎石フォント",
+      "class": "aoyagisoseki",
+      "by": "武蔵システム",
+      "link": "https://opentype.jp/aoyagisosekifont.htm",
+      "description": "書家の青柳疎石先生が字母を書かれ、青柳衡山様がフォント化された毛筆フォントです。JIS非漢字、JIS第一水準漢字、JIS第二水準漢字が収録されています。無料でご利用できます。商用利用可能で制限はありません。ロゴ等へも自由にご利用いただけます。"
+    },
+    {
+      "org": "cursive",
+      "name": "Inscrutable 1.0",
+      "class": "inscrutable",
+      "by": "Nick DeMarco",
+      "link": "http://demarconia.com/inscrutable.html",
+      "description": "Inscrutable is an abstract typeface, a way for your words to disappear completely- hidden in plain sight. Once you download and install the typeface on your computer its usage is open to interpretation without restriction, from counter-surveillance to office expressionism."
+    },
+    {
+      "org": "cursive",
+      "name": "Immortalist",
+      "class": "Immortalist",
+      "by": "Rory King",
+      "link": "https://rorykingetc.com/dasickfonts",
+      "description": "An accident in flux. Designed using Glyphs Mini."
+    },
+    {
+      "org": "cursive",
+      "name": "Orchard Linear",
+      "class": "Orchard",
+      "by": "Rory King",
+      "link": "https://rorykingetc.com/dasickfonts",
+      "description": "A font in one weight based on the idea of asemic writing as a digital font. Designed using Glyphs Mini."
+    },
+    {
+      "org": "cursive",
+      "name": "Kristina",
+      "class": "Kristina",
+      "by": "kristinabold.com",
+      "link": "https://www.kristinabold.com/",
+      "description": "In 2013, Kristina suffered a stroke and lost her ability to write. Ever since, she’s been learning to write again."
+    },
+    {
+      "org": "cursive",
+      "name": "Pecita",
+      "class": "pecita",
+      "by": "Philippe Cochy with Reserved Font Name Pecita",
+      "link": "http://pecita.eu/",
+      "description": "ペーシタはワイルドフラワーです。あなたが自由に出版物やWebページのPecitaフォントを使用することができます"
+    },
+    {
+      "org": "sans-serif",
+      "name": "emotional",
+      "class": "emotional",
+      "by": "Promphan Suksumek",
+      "link": "http://www.emotionaltype.org/",
+      "description": "emotionalThe animation was made by Opentype (1.8) Variable Fonts which is animated by CSS."
+    },
+    {
+      "org": "sans-serif",
+      "name": "Uncut Sans",
+      "class": "uncut-sans",
+      "by": "UNCUT.wtf",
+      "link": "https://uncut.wtf/sans-serif/uncut-sans/",
+      "description": "Uncut Sans is yet another slightly quirky sans serif, designed with absolutely no investigation or research into any other typefaces from any specific time period. It tries to capture the essence of nothing, really."
+    },
+    {
+      "org": "sans-serif",
+      "name": "Milkman",
+      "class": "milkman",
+      "by": "Giulia Boggio",
+      "link": "https://uncut.wtf/sans-serif/milkman.html",
+      "description": "Milkman is a grotesk/display typeface born from the intersection of Fabio XM (Giulia Boggio) and Blocus (Velvetyne - Martin Desinde). Imagined with a very sharp and editorial look, it’s perfect for typographic artworks and posters."
+    },
+    {
+      "org": "serif",
+      "name": "Instrument Serif",
+      "class": "instrument-serif",
+      "by": "Rodrigo Fuenzalida, Jordan Egstad",
+      "link": "https://uncut.wtf/serif/instrument-serif/",
+      "description": "Instrument Serif is designed for large sizes and offers a contemporary take on some of our favorite old style serifs."
+    },
+    {
+      "org": "monospace",
+      "name": "Whois",
+      "class": "whois",
+      "by": "Raphaël Bastide",
+      "link": "https://uncut.wtf/monospace/whois/",
+      "description": "Whois Mono font is a great monospace, with clear lines and good legibility even at small sizes."
+    },
+    {
+      "org": "fantasy",
+      "name": "Saint",
+      "class": "saint-font",
+      "by": "Liza Dushnota",
+      "link": "https://uncut.wtf/display/saint/",
+      "description": "Saint — is a free display typeface inspired by gothics and punk. Looking forward to be used in your stunning design"
+    },
+    {
+      "org": "sans-serif",
+      "name": "Zen Kaku Gothic New",
+      "class": "ZenKakuGothicNew",
+      "by": "Yoshimichi Ohira",
+      "link": "https://www.zenfont.jp/",
+      "description": "Zen Kaku Gothic New is a contemporary Japanese gothic (san serif) typeface family. With this font, you can express fine typesetting without any professional det"
+    },
+    {
+      "org": "sans-serif",
+      "name": "Violet Sans",
+      "class": "VioletSans",
+      "by": "Violet Office",
+      "link": "https://violetoffice.com/",
+      "description": "Developed as our in-house typeface for all Violet Office communication, including this very website. We liked it so much we expanded the character set and offered it free to the world."
+    },
+    {
+      "org": "fantasy",
+      "name": "Good Glyphs",
+      "class": "GoodGlyphs",
+      "by": "Violet Office",
+      "link": "https://goodglyphs.com/",
+      "description": "Violet Office conceived Good Glyphs NO. 1 as a fundraising platform and dingbat font created by 32 designers from around the world. Conceived during the peak of the COVID19 pandemic, Good Glyphs is a small way for us to give back, raise money, and spread good vibes."
     },
     {
       "org": "fantasy",
@@ -130,6 +330,46 @@
       "by": "fonderie.download",
       "link": "https://fonderie.download/",
       "description": "fonderie.download is your new favorite website. We design and distribute typefaces."
+    },
+    {
+      "org": "fantasy",
+      "name": "Saintjean",
+      "class": "Saintjean",
+      "by": "A collective",
+      "link": "https://velvetyne.fr/fonts/saintjean/",
+      "description": "A font created from ampersands received during our ampersand workshop."
+    },
+    {
+      "org": "fantasy",
+      "name": "Typefesse",
+      "class": "Typefesse",
+      "by": "Océane Juvin",
+      "link": "https://velvetyne.fr/fonts/Typefesse/",
+      "description": "Typefesse is a playful butt-shaped typeface in which the letters are rendered in such a way that the reading is done through the folds of the body."
+    },
+    {
+      "org": "fantasy",
+      "name": "MESS",
+      "class": "MESS",
+      "by": "Tezzo Suzuki",
+      "link": "https://velvetyne.fr/fonts/MESS/",
+      "description": "Font is something like a corporation. From outside, it is hard for us to see how it works and who is working in it. In metal type era, we were close to glyphs but today we never know how they feels about their treatment."
+    },
+    {
+      "org": "fantasy",
+      "name": "Kaeru Kaeru",
+      "class": "kaerukaeru",
+      "by": "Isabel Motz",
+      "link": "https://velvetyne.fr/fonts/kaeru-kaeru/",
+      "description": "Bright colored and blobby shaped patterns of the poison dart frog mixed together with the strangely formed muscles in Japanese woodcuts. Kaeru kaeru combines both inspirations in one typeface."
+    },
+    {
+      "org": "fantasy",
+      "name": "Pilowlava",
+      "class": "pilowlava",
+      "by": "Isabel Motz",
+      "link": "https://velvetyne.fr/fonts/pilowlava/",
+      "description": "Pilowlava (sic) was born as an intuitive, fast-paced creative feedback loop in which its creators tried to surprise one another."
     },
     {
       "org": "cursive",
@@ -141,11 +381,67 @@
     },
     {
       "org": "fantasy",
+      "name": "Heritage Display",
+      "class": "Heritage",
+      "by": "Daniel Schriër",
+      "link": "https://schrier.gumroad.com/l/heritagedisplay",
+      "description": "A2Z Heritage is a blackletter display typeface built on a 25x25 grid, each letter has strict constraints which led to a unique outcome when compared to a standard blackletter typeface."
+    },
+    {
+      "org": "serif",
+      "name": "Jasper Display",
+      "class": "JSPRDISPLAY",
+      "by": "Daniel Schriër",
+      "link": "https://schrier.gumroad.com/l/jasperdisplay",
+      "description": "A2Z Jasper is a cut-throat serif typeface, heavily inspired by your standard roman construction. Jasper was a practice run for a future typeface. The reasoning behind Jasper was to expand my understanding of the construction of a roman typeface."
+    },
+    {
+      "org": "fantasy",
+      "name": "Jabin Typeface",
+      "class": "Jabin",
+      "by": "Frida Medrano",
+      "link": "http://www.fridamedrano.com/jabin.html",
+      "description": "jabin free typeface and variable font frida medrano minisite stage."
+    },
+    {
+      "org": "fantasy",
       "name": "Wagemut",
       "class": "Wagemut_Outline",
       "by": "Moritz Esch",
       "link": "https://www.moritzesch.com/wagemut",
       "description": "Im Rahmen meiner Bachelor-Abschlussarbeit habe ich die Display-Font 'WAGEMUT' zusammen mit einigen Anwendungsbeispielen angefertigt."
+    },
+    {
+      "org": "fantasy",
+      "name": "UNKNOWN",
+      "class": "UNKNOWN",
+      "by": "Alexander Raffl, Lukas Haider",
+      "link": "https://www.behance.net/gallery/103669759/UNKNOWN-FREE-CONTEMPORARY-DISPLAY-TYPEFACE",
+      "description": "UNKNOWN is a free contemporary display typeface. It consists of three styles: RND, PX and MX. Additional alternates can easily be adapted using upper- or lowercase characters."
+    },
+    {
+      "org": "monospace",
+      "name": "Space Mono",
+      "class": "SpaceMono",
+      "by": "Colophon",
+      "link": "https://fonts.google.com/specimen/Space+Mono",
+      "description": "Space Mono is an original fixed-width type family designed by Colophon Foundry for Google Design."
+    },
+    {
+      "org": "monospace",
+      "name": "Xanh Mono",
+      "class": "XanhMono",
+      "by": "Yellow Type, Lam Bao, Duy Dao",
+      "link": "https://fonts.google.com/specimen/Xanh+Mono",
+      "description": "Xanh Mono is a mono-serif typeface, designed by Lam Bao and Duy Dao. In Vietnamese, “Xanh” has a lot of meanings, including blue; green; young; etc."
+    },
+    {
+      "org": "___",
+      "name": "___",
+      "class": "___",
+      "by": "___",
+      "link": "___",
+      "description": "___"
     },
     {
       "org": "___",
