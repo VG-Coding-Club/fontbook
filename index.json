@@ -116,14 +116,6 @@
       "description": "横浜のイメージから、「上品、スマート、おしゃれ」「伝統、文化がそこはかとなく感じられる」「古さと新しさの共存」「おしゃれだけど身近さ（どんくささ）がある」「きゃしゃ、さっぱり、さらさらしているけどしっかりしている、自己主張がある」「品格がある」「流れる感じ（港や船の印象から…）、リズム感」をキーワードに誕生した 横浜独自のフォント"
     },
     {
-      "org": "fantasy",
-      "name": "Wagemut",
-      "class": "Wagemut_Outline",
-      "by": "Moritz Esch",
-      "link": "https://www.moritzesch.com/wagemut",
-      "description": "Im Rahmen meiner Bachelor-Abschlussarbeit habe ich die Display-Font 'WAGEMUT' zusammen mit einigen Anwendungsbeispielen angefertigt."
-    },
-    {
       "org": "___",
       "name": "___",
       "class": "___",
@@ -146,6 +138,14 @@
       "by": "fonderie.download",
       "link": "https://fonderie.download/",
       "description": "fonderie.download is your new favorite website. We design and distribute typefaces."
+    },
+    {
+      "org": "fantasy",
+      "name": "Wagemut",
+      "class": "Wagemut_Outline",
+      "by": "Moritz Esch",
+      "link": "https://www.moritzesch.com/wagemut",
+      "description": "Im Rahmen meiner Bachelor-Abschlussarbeit habe ich die Display-Font 'WAGEMUT' zusammen mit einigen Anwendungsbeispielen angefertigt."
     },
     {
       "org": "___",
