@@ -324,6 +324,14 @@
       "description": "Violet Office conceived Good Glyphs NO. 1 as a fundraising platform and dingbat font created by 32 designers from around the world. Conceived during the peak of the COVID19 pandemic, Good Glyphs is a small way for us to give back, raise money, and spread good vibes."
     },
     {
+      "org": "cursive",
+      "name": "Crédible",
+      "class": "credible",
+      "by": "fonderie.download",
+      "link": "https://fonderie.download/",
+      "description": "fonderie.download is your new favorite website. We design and distribute typefaces."
+    },
+    {
       "org": "fantasy",
       "name": "Quarantype",
       "class": "Quarantype",
@@ -373,11 +381,27 @@
     },
     {
       "org": "cursive",
-      "name": "Crédible",
-      "class": "credible",
-      "by": "fonderie.download",
-      "link": "https://fonderie.download/",
-      "description": "fonderie.download is your new favorite website. We design and distribute typefaces."
+      "name": "Kevin Wild",
+      "class": "kevinwild",
+      "by": "Kevin Weichel",
+      "link": "https://www.dafont.com/kevinwild.font",
+      "description": "Kevin's Wild font is by Kevin Weichel. Free for personal use. Questions Email KWeichel.1@go.ccad.edu"
+    },
+    {
+      "org": "cursive",
+      "name": "Moody Boys",
+      "class": "moodyboys",
+      "by": "Veredgf",
+      "link": "https://fontmeme.com/jfont/moody-boys-font/",
+      "description": "Moody Boys is a trademark of Vered Gilad Friedman, Copyright (c) 2009 by Vered Gilad Friedman. All rights reserved. http://veredgf.deviantart.com"
+    },
+    {
+      "org": "cursive",
+      "name": "FasType",
+      "class": "FasType",
+      "by": "Veredgf",
+      "link": "https://www.dafont.com/fastype.font",
+      "description": "Copyright (c) 2009 by Vered Gilad Friedman (http://veredgf.deviantart.com). All rights reserved. Free for non commercial use. For commercial use, please contact royvered@netvision.net.il"
     },
     {
       "org": "fantasy",

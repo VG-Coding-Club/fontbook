@@ -431,6 +431,33 @@
 }
 
 @font-face {
+  font-family: "Kevin Wild";
+  src: url("../family/dafont/kevinwild.ttf");
+}
+
+.kevinwild {
+  font-family: "Kevin Wild", cursive;
+}
+
+@font-face {
+  font-family: "Moody Boys";
+  src: url("../family/dafont/Moody_Boys.ttf");
+}
+
+.moodyboys {
+  font-family: "Moody Boys", cursive;
+}
+
+@font-face {
+  font-family: "FasType";
+  src: url("../family/dafont/fastype.ttf");
+}
+
+.FasType {
+  font-family: "FasType", cursive;
+}
+
+@font-face {
   font-family: "Jabin";
   src: url("../family/fridamedrano/Jabin-Typeface.ttf"),
   url("../family/fridamedrano/Jabin-Typeface.woff2");

@@ -66,11 +66,8 @@ input[type="radio"]+label {
     float: right;
 }
 
+#title,
 #things ul h3 {
-    font-size: 175%;
-}
-
-#title {
     font-size: 150%;
 }
 
@@ -78,8 +75,9 @@ input[type="radio"]+label {
     font-size: 125%;
 }
 
-#things ul h3 small {
-    font-size: 55%;
+#things ul h3 small,
+input[type="radio"]+label {
+    font-size: 75%;
     font-weight: 100;
 }
 
