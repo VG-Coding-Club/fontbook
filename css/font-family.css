@@ -1,4 +1,22 @@
 @font-face {
+  font-family: "MS Gothic";
+  src: url("../family/MSGothic.ttf");
+}
+
+.MSGothic {
+  font-family: "MS Gothic", sans-serif;
+}
+
+@font-face {
+  font-family: "MS Mincho";
+  src: url("../family/MSMincho.ttf");
+}
+
+.MSMincho {
+  font-family: "MS Mincho", serif;
+}
+
+@font-face {
   font-family: "San Francisco";
   src: url("../family/SF/Compact-Text-Regular.otf"),
     url("../family/SF/UI-Display-Regular.otf");
@@ -43,6 +61,22 @@
 
 .ipaexg {
   font-family: "IPAexゴシック", sans-serif;
+}
+
+@font-face {
+  font-family: "LINE Seed JP";
+  src: url("../family/line/WOFF2/LINESeedJP_OTF_Rg.woff2"),
+    url("../family/line/WOFF2/LINESeedJP_OTF_Th.woff2"),
+    url("../family/line/WOFF2/LINESeedJP_OTF_Eb.woff2"),
+    url("../family/line/WOFF2/LINESeedJP_OTF_Bd.woff2"),
+    url("../family/line/EOT/LINESeedJP_TTF_Rg.eot"),
+    url("../family/line/EOT/LINESeedJP_TTF_Th.eot"),
+    url("../family/line/EOT/LINESeedJP_TTF_Eb.eot"),
+    url("../family/line/EOT/LINESeedJP_TTF_Bd.eot");
+}
+
+.seed {
+  font-family: "LINE Seed JP", sans-serif;
 }
 
 @font-face {
@@ -135,8 +169,8 @@
 @font-face {
   font-family: "DiaPro";
   src: url("../family/DiaPro/DiaPro-Regular.eot"),
-  url("../family/DiaPro/DiaPro-Regular.otf"),
-  url("../family/DiaPro/DiaPro-Regular.woff");
+    url("../family/DiaPro/DiaPro-Regular.otf"),
+    url("../family/DiaPro/DiaPro-Regular.woff");
 }
 
 .DiaPro {
@@ -146,7 +180,7 @@
 @font-face {
   font-family: "JNRfont";
   src: url("../family/JNRfont/JNRfont_n.ttf"),
-  url("../family/JNRfont/JNRfont_s.ttf");
+    url("../family/JNRfont/JNRfont_s.ttf");
 }
 
 .JNRfont {
@@ -156,8 +190,8 @@
 @font-face {
   font-family: "Kikai Chokoku";
   src: url("../family/ki-cho-jis/KikaiChokokuJIS-Md.otf"),
-  url("../family/ki-cho-jis/KikaiChokokuJIS-CnKn.otf"),
-  url("../family/ki-cho-jis/KikaiChokokuJIS-XCnKn.otf");
+    url("../family/ki-cho-jis/KikaiChokokuJIS-CnKn.otf"),
+    url("../family/ki-cho-jis/KikaiChokokuJIS-XCnKn.otf");
 }
 
 .Kikai {
@@ -167,7 +201,7 @@
 @font-face {
   font-family: "Cobra";
   src: url("../family/Cobra/CobraFont.otf"),
-  url("../family/Cobra/CobraFont.ttf");
+    url("../family/Cobra/CobraFont.ttf");
 }
 
 .Cobra {
@@ -177,7 +211,7 @@
 @font-face {
   font-family: "Commando";
   src: url("../family/Commando/CommandoFont.otf"),
-  url("../family/Commando/CommandoFont.ttf");
+    url("../family/Commando/CommandoFont.ttf");
 }
 
 .Commando {
@@ -187,7 +221,7 @@
 @font-face {
   font-family: "misaki_gothic";
   src: url("../family/misaki/misaki_gothic_2nd.ttf"),
-  url("../family/misaki/misaki_gothic.ttf");
+    url("../family/misaki/misaki_gothic.ttf");
 }
 
 .misaki_gothic {
@@ -235,6 +269,18 @@
   src: url("../family/roryking/Immortalist-Light.otf");
 }
 
+@font-face {
+  font-family: 'computersnormal';
+  src: url("../family/computers/computers_complete-webfont.woff2"),
+    url("../family/computers/computers_complete-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.computers {
+  font-family: "computersnormal", cursive;
+}
+
 .Immortalist {
   font-family: "Immortalist", cursive;
 }
@@ -249,9 +295,108 @@
 }
 
 @font-face {
+  font-family: "fa_gugpzswuje";
+  src: url("../family/fullauto/FA_GUGPZSWUJE.ttf");
+}
+
+.fa_gugpzswuje {
+  font-family: "fa_gugpzswuje", fantasy;
+}
+
+@font-face {
+  font-family: "fa_ajfahjveyp";
+  src: url("../family/fullauto/FA_AJFAHJVEYP.ttf");
+}
+
+.fa_ajfahjveyp {
+  font-family: "fa_ajfahjveyp", fantasy;
+}
+
+@font-face {
+  font-family: "fa_ekpalxaiox";
+  src: url("../family/fullauto/FA_EKPALXAIOX.ttf");
+}
+
+.fa_ekpalxaiox {
+  font-family: "fa_ekpalxaiox", fantasy;
+}
+
+@font-face {
+  font-family: "fa_mwrdfpijmh";
+  src: url("../family/fullauto/FA_MWRDFPIJMH.ttf");
+}
+
+.fa_mwrdfpijmh {
+  font-family: "fa_mwrdfpijmh", fantasy;
+}
+
+@font-face {
+  font-family: "fa_dcbmgxvycn";
+  src: url("../family/fullauto/FA_DCBMGXVYCN.ttf");
+}
+
+.fa_dcbmgxvycn {
+  font-family: "fa_dcbmgxvycn", fantasy;
+}
+
+@font-face {
+  font-family: "fa_lfqexglclc";
+  src: url("../family/fullauto/FA_LFQEXGLCLC.ttf");
+}
+
+.fa_lfqexglclc {
+  font-family: "fa_lfqexglclc", fantasy;
+}
+
+@font-face {
+  font-family: "fa_umguksotan";
+  src: url("../family/fullauto/FA_UMGUKSOTAN.ttf");
+}
+
+.fa_umguksotan {
+  font-family: "fa_umguksotan", fantasy;
+}
+
+@font-face {
+  font-family: "fa_gwmzswkmko";
+  src: url("../family/fullauto/FA_GWMZSWKMKO.ttf");
+}
+
+.fa_gwmzswkmko {
+  font-family: "fa_gwmzswkmko", fantasy;
+}
+
+@font-face {
+  font-family: "fa_kjnzeiiuul";
+  src: url("../family/fullauto/FA_KJNZEIIUUL.ttf");
+}
+
+.fa_kjnzeiiuul {
+  font-family: "fa_kjnzeiiuul", fantasy;
+}
+
+@font-face {
+  font-family: "fa_himraikxwg";
+  src: url("../family/fullauto/FA_HIPSFXAQGN.ttf");
+}
+
+.fa_himraikxwg {
+  font-family: "fa_himraikxwg", fantasy;
+}
+
+@font-face {
+  font-family: "fa_iaxvoqocgd";
+  src: url("../family/fullauto/FA_IAXVOQOCGD.ttf");
+}
+
+.fa_iaxvoqocgd {
+  font-family: "fa_iaxvoqocgd", fantasy;
+}
+
+@font-face {
   font-family: "Kristina";
   src: url("../family/Kristina/Kristina.Fine.otf"),
-  url("../family/Kristina/Kristina.Bold.otf");
+    url("../family/Kristina/Kristina.Bold.otf");
 }
 
 .Kristina {
@@ -279,18 +424,18 @@
 @font-face {
   font-family: "Uncut Sans";
   src: url("../family/uncut/sans/UncutSans-Variable.ttf"),
-  url("../family/uncut/sans/UncutSans-Light.otf"),
-  url("../family/uncut/sans/UncutSans-LightItalic.otf"),
-  url("../family/uncut/sans/UncutSans-Medium.otf"),
-  url("../family/uncut/sans/UncutSans-MediumItalic.otf"),
-  url("../family/uncut/sans/UncutSans-Regular.otf"),
-  url("../family/uncut/sans/UncutSans-RegularItalic.otf"),
-  url("../family/uncut/sans/UncutSans-Book.otf"),
-  url("../family/uncut/sans/UncutSans-BookItalic.otf"),
-  url("../family/uncut/sans/UncutSans-Bold.otf"),
-  url("../family/uncut/sans/UncutSans-BoldItalic.otf"),
-  url("../family/uncut/sans/UncutSans-Semibold.otf"),
-  url("../family/uncut/sans/UncutSans-SemiboldItalic.otf");
+    url("../family/uncut/sans/UncutSans-Light.otf"),
+    url("../family/uncut/sans/UncutSans-LightItalic.otf"),
+    url("../family/uncut/sans/UncutSans-Medium.otf"),
+    url("../family/uncut/sans/UncutSans-MediumItalic.otf"),
+    url("../family/uncut/sans/UncutSans-Regular.otf"),
+    url("../family/uncut/sans/UncutSans-RegularItalic.otf"),
+    url("../family/uncut/sans/UncutSans-Book.otf"),
+    url("../family/uncut/sans/UncutSans-BookItalic.otf"),
+    url("../family/uncut/sans/UncutSans-Bold.otf"),
+    url("../family/uncut/sans/UncutSans-BoldItalic.otf"),
+    url("../family/uncut/sans/UncutSans-Semibold.otf"),
+    url("../family/uncut/sans/UncutSans-SemiboldItalic.otf");
 }
 
 .uncut-sans {
@@ -309,11 +454,11 @@
 @font-face {
   font-family: "Instrument Serif";
   src: url("../family/uncut/instrument-serif/InstrumentSerif-Regular.otf"),
-  url("../family/uncut/instrument-serif/InstrumentSerif-Regular.ttf"),
-  url("../family/uncut/instrument-serif/InstrumentSerif-Regular.woff2"),
-  url("../family/uncut/instrument-serif/InstrumentSerif-Italic.otf"),
-  url("../family/uncut/instrument-serif/InstrumentSerif-Italic.ttf"),
-  url("../family/uncut/instrument-serif/InstrumentSerif-Italic.woff2");
+    url("../family/uncut/instrument-serif/InstrumentSerif-Regular.ttf"),
+    url("../family/uncut/instrument-serif/InstrumentSerif-Regular.woff2"),
+    url("../family/uncut/instrument-serif/InstrumentSerif-Italic.otf"),
+    url("../family/uncut/instrument-serif/InstrumentSerif-Italic.ttf"),
+    url("../family/uncut/instrument-serif/InstrumentSerif-Italic.woff2");
 }
 
 .instrument-serif {
@@ -323,9 +468,9 @@
 @font-face {
   font-family: "Whois";
   src: url("../family/uncut/Whois-mono/whois-mono.ttf"),
-  url("../family/uncut/Whois-mono/whois-mono.eot"),
-  url("../family/uncut/Whois-mono/whois-mono.woff"),
-  url("../family/uncut/Whois-mono/whois-mono.svg");
+    url("../family/uncut/Whois-mono/whois-mono.eot"),
+    url("../family/uncut/Whois-mono/whois-mono.woff"),
+    url("../family/uncut/Whois-mono/whois-mono.svg");
 }
 
 .whois {
@@ -344,9 +489,9 @@
 @font-face {
   font-family: "Violet Sans";
   src: url("../family/violet/VioletSans-Regular.otf"),
-  url("../family/violet/VioletSans-Regular.ttf"),
-  url("../family/violet//VioletSans-Regular.woff"),
-  url("../family/violet/VioletSans-Regular.woff2");
+    url("../family/violet/VioletSans-Regular.ttf"),
+    url("../family/violet//VioletSans-Regular.woff"),
+    url("../family/violet/VioletSans-Regular.woff2");
 }
 
 .VioletSans {
@@ -360,16 +505,6 @@
 
 .GoodGlyphs {
   font-family: "Good Glyphs", fantasy;
-}
-
-@font-face {
-  font-family: "Quarantype";
-  src: url("../family/Quarantype/Quarantype-Regular.otf"),
-    url("../family/Quarantype/Quarantype-Oblique.otf");
-}
-
-.Quarantype {
-  font-family: "Quarantype", fantasy;
 }
 
 @font-face {
@@ -411,9 +546,9 @@
 @font-face {
   font-family: "Pilowlava";
   src: url("../family/velvetyne/pilowlava/Pilowlava-Regular.eot"),
-  url("../family/velvetyne/pilowlava/Pilowlava-Regular.otf"),
-  url("../family/velvetyne/pilowlava/Pilowlava-Regular.woff"),
-  url("../family/velvetyne/pilowlava/Pilowlava-Regular.woff2");
+    url("../family/velvetyne/pilowlava/Pilowlava-Regular.otf"),
+    url("../family/velvetyne/pilowlava/Pilowlava-Regular.woff"),
+    url("../family/velvetyne/pilowlava/Pilowlava-Regular.woff2");
 }
 
 .pilowlava {
@@ -421,13 +556,46 @@
 }
 
 @font-face {
+  font-family: "fromages";
+  src: url("../family/fd/4fromages/4-Fromages-Regular.otf"),
+    url("../family/fd/4fromages/4-Fromages-Regular.woff"),
+    url("../family/fd/4fromages/4-Fromages-Regular.woff2");
+}
+
+.fromages {
+  font-family: "fromages", cursive;
+}
+
+@font-face {
   font-family: "credible";
-  src: url("../family/credible/Crédible-Regular.otf"),
-    url("../family/credible/Crédible-Regular.woff");
+  src: url("../family/fd/credible/Crédible-Regular.otf"),
+    url("../family/fd/credible/Crédible-Regular.woff");
 }
 
 .credible {
   font-family: "credible", cursive;
+}
+
+@font-face {
+  font-family: "Quarantype";
+  src: url("../family/fd/Quarantype/Quarantype-Regular.otf"),
+    url("../family/fd/Quarantype/Quarantype-Oblique.otf");
+}
+
+.Quarantype {
+  font-family: "Quarantype", fantasy;
+}
+
+@font-face {
+  font-family: "zara";
+  src: url("../family/fd/zara/Zara-Regular.otf"),
+    url("../family/fd/zara/Zara-Regular.woff"),
+    url("../family/fd/zara/Zara-Oblique.otf"),
+    url("../family/fd/zara/Zara-Oblique.woff");
+}
+
+.zara {
+  font-family: "zara", fantasy;
 }
 
 @font-face {
@@ -460,7 +628,7 @@
 @font-face {
   font-family: "Jabin";
   src: url("../family/fridamedrano/Jabin-Typeface.ttf"),
-  url("../family/fridamedrano/Jabin-Typeface.woff2");
+    url("../family/fridamedrano/Jabin-Typeface.woff2");
 }
 
 .Jabin {
@@ -512,7 +680,6 @@
   font-family: "Wagemut_Ephemer", fantasy;
 }
 
-
 @font-face {
   font-family: "UNKNOWN";
   src: url("../family/Unknown-RND.ttf");
@@ -520,6 +687,27 @@
 
 .UNKNOWN {
   font-family: "UNKNOWN", fantasy;
+}
+
+@font-face {
+  font-family: "Grommet";
+  src: url("../family/Grommet/Grommet-Light.otf"),
+    url("../family/Grommet/Grommet-Regular.otf");
+}
+
+.Grommet {
+  font-family: "Grommet", fantasy;
+}
+
+@font-face {
+  font-family: "WAX MELT";
+  src: url("../family/WaxMelt/WaxMelt-Regular.otf"),
+    url("../family/WaxMelt/WaxMelt-Regular.woff"),
+    url("../family/WaxMelt/WaxMelt_EULA.rtf");
+}
+
+.melt {
+  font-family: "WAX MELT", fantasy;
 }
 
 @font-face {
@@ -538,6 +726,69 @@
 
 .XanhMono {
   font-family: "Xanh Mono", monospace;
+}
+
+@font-face {
+  font-family: 'fira-code-regular';
+  src: url('../family/fira-code/fira-code_regular.eot');
+  src: url('../family/fira-code/fira-code_regular.eot?#iefix') format('embedded-opentype'),
+    url('../family/fira-code/fira-code_regular.woff') format('woff'),
+    url('../family/fira-code/fira-code_regular.ttf') format('truetype');
+}
+
+.fira-code {
+  font-family: "fira-code-regular", monospace;
+}
+
+@font-face {
+  font-family: 'Source Code Variable';
+  font-weight: 200 900;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('../family/source-code-pro/WOFF2/VF/SourceCodeVF-Upright.ttf.woff2') format('woff2'),
+    url('../family/source-code-pro/WOFF/VF/SourceCodeVF-Upright.ttf.woff') format('woff'),
+    url('../family/source-code-pro/VAR/SourceCodeVF-Upright.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Source Code Variable';
+  font-weight: 200 900;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('../family/source-code-pro/WOFF2/VF/SourceCodeVF-Italic.ttf.woff2') format('woff2'),
+    url('../family/source-code-pro/WOFF/VF/SourceCodeVF-Italic.ttf.woff') format('woff'),
+    url('../family/source-code-pro/VAR/SourceCodeVF-Italic.ttf') format('truetype');
+}
+
+.source-code-pro {
+  font-family: "Source Code Variable", monospace;
+}
+
+@font-face {
+  font-family: "linefont";
+  font-display: block;
+  src: url("../family/dy/linefont/Linefont[wdth\,wght].ttf"),
+    url("../family/dy/linefont/Linefont[wdth\,wght].woff2");
+}
+
+.linefont {
+  --wght: 200;
+  --wdth: 50;
+  font-family: "linefont";
+  font-variation-settings: 'wght' var(--wght), 'wdth' var(--wdth);
+}
+
+@font-face {
+  font-family: "wavefont";
+  font-display: block;
+  src: url("../family/dy/wavefont/Wavefont[ROND\,YELA\,wght].ttf"),
+    url("../family/dy/wavefont/Wavefont[ROND\,YELA\,wght].woff2");
+}
+
+.wavefont {
+  --wght: 10;
+  font-family: "wavefont";
+  font-variation-settings: 'wght' var(--wght), 'ROND' 30, 'YELA' 0;
 }
 
 

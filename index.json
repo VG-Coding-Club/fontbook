@@ -52,12 +52,28 @@
       "description": "A companion to San Francisco, this serif typeface is based on essential aspects of historical type styles. New York features six weights, supports Latin, Greek, and Cyrillic scripts, and features variable optical sizes allowing it to perform as a traditional reading face at small sizes and a graphic display face at larger sizes."
     },
     {
-      "org": "cursive",
-      "name": "Great Vibes",
-      "class": "GreatVibes",
-      "by": "Robert Leuschke",
-      "link": "https://fonts.google.com/specimen/Great+Vibes",
-      "description": "Great Vibes is a beautifully flowing script with casual uppercase forms combined with more formal lowercase letters."
+      "org": "sans-serif",
+      "name": "MS Gothic",
+      "class": "MSGothic",
+      "by": "Microsoft Corp.",
+      "link": "https://learn.microsoft.com/ja-jp/typography/font-list/ms-gothic",
+      "description": "MS Gothic is a Japanese font features plain strokes similar to sans serif designs, and works well for on-screen display such as user interfaces."
+    },
+    {
+      "org": "serif",
+      "name": "MS Mincho",
+      "class": "MSMincho",
+      "by": "Microsoft Corp.",
+      "link": "https://learn.microsoft.com/ja-jp/typography/font-list/ms-mincho",
+      "description": "MS Mincho is a Japanese font that features serifs at the end of its strokes, and can be used for a variety of uses from screen display to publications."
+    },
+    {
+      "org": "monospace",
+      "name": "IBM Plex®",
+      "class": "IBMPlex",
+      "by": "IBM",
+      "link": "https://www.ibm.com/plex/",
+      "description": "IBM Plex® is our new typeface. It’s global, it’s versatile and it’s distinctly IBM."
     },
     {
       "org": "serif",
@@ -76,12 +92,12 @@
       "description": "「IPAexフォント」は、和文文字（仮名や漢字など）は固定幅、欧文文字は文字幅に合わせた変動幅を基本とした実装を行い、日本語文書作成の利便性の向上を目指したフォントです。"
     },
     {
-      "org": "monospace",
-      "name": "IBM Plex®",
-      "class": "IBMPlex",
-      "by": "IBM",
-      "link": "https://www.ibm.com/plex/",
-      "description": "IBM Plex® is our new typeface. It’s global, it’s versatile and it’s distinctly IBM."
+      "org": "cursive",
+      "name": "Great Vibes",
+      "class": "GreatVibes",
+      "by": "Robert Leuschke",
+      "link": "https://fonts.google.com/specimen/Great+Vibes",
+      "description": "Great Vibes is a beautifully flowing script with casual uppercase forms combined with more formal lowercase letters."
     },
     {
       "org": "serif",
@@ -164,7 +180,7 @@
       "description": "機械彫刻用標準書体は、工業的な彫刻によって文字を作製するときの標準として、日本産業規格（JIS／旧日本工業規格）に定められた書体です。工業彫刻における技術的制約から、独特な機能美を持っています。"
     },
     {
-      "org": "fantasy",
+      "org": "sans-serif",
       "name": "コブラフォント",
       "class": "Cobra",
       "by": "えばやん",
@@ -172,7 +188,7 @@
       "description": "コブラフォントは、『スペースコブラ』のタイトルロゴをベースに制作したカナフォントです。多少手を加える必要はありますが、比較的簡単にロゴの再現が可能となっております。"
     },
     {
-      "org": "fantasy",
+      "org": "sans-serif",
       "name": "コマンドーフォント",
       "class": "Commando",
       "by": "えばやん",
@@ -221,6 +237,14 @@
     },
     {
       "org": "cursive",
+      "name": "Computers Regular",
+      "class": "computers",
+      "by": "Marianne Noordzij",
+      "link": "https://mariannenoordzij.nl/computers/",
+      "description": "for inquiries: send an e-mail to business@mariannenoordzij.nl Computers-Regular in use."
+    },
+    {
+      "org": "cursive",
       "name": "Immortalist",
       "class": "Immortalist",
       "by": "Rory King",
@@ -234,6 +258,94 @@
       "by": "Rory King",
       "link": "https://rorykingetc.com/dasickfonts",
       "description": "A font in one weight based on the idea of asemic writing as a digital font. Designed using Glyphs Mini."
+    },
+    {
+      "org": "fantasy",
+      "name": "fa_gugpzswuje",
+      "class": "fa_gugpzswuje",
+      "by": "full auto: f-a-Tjoki",
+      "link": "https://www.fullautofoundry.com/f-a-Tjoki/",
+      "description": "full auto foundry is a workshop based type foundry that explores how processes of automation can influence the design of typefaces."
+    },
+    {
+      "org": "fantasy",
+      "name": "fa_ajfahjveyp",
+      "class": "fa_ajfahjveyp",
+      "by": "full auto: TypeClub530_2020",
+      "link": "https://www.fullautofoundry.com/TypeClub530_2020/",
+      "description": "full auto foundry is a workshop based type foundry that explores how processes of automation can influence the design of typefaces."
+    },
+    {
+      "org": "fantasy",
+      "name": "fa_ekpalxaiox",
+      "class": "fa_ekpalxaiox",
+      "by": "full auto: TypeClub530_2020",
+      "link": "https://www.fullautofoundry.com/TypeClub530_2020/",
+      "description": "full auto foundry is a workshop based type foundry that explores how processes of automation can influence the design of typefaces."
+    },
+    {
+      "org": "fantasy",
+      "name": "fa_mwrdfpijmh",
+      "class": "fa_mwrdfpijmh",
+      "by": "full auto: TypeClub530_2020",
+      "link": "https://www.fullautofoundry.com/TypeClub530_2020/",
+      "description": "full auto foundry is a workshop based type foundry that explores how processes of automation can influence the design of typefaces."
+    },
+    {
+      "org": "fantasy",
+      "name": "fa_dcbmgxvycn",
+      "class": "fa_dcbmgxvycn",
+      "by": "full auto: PatternsoftheNeighbourhood",
+      "link": "https://www.fullautofoundry.com/PatternsoftheNeighbourhood/",
+      "description": "full auto foundry is a workshop based type foundry that explores how processes of automation can influence the design of typefaces."
+    },
+    {
+      "org": "fantasy",
+      "name": "fa_lfqexglclc",
+      "class": "fa_lfqexglclc",
+      "by": "full auto: PatternsoftheNeighbourhood",
+      "link": "https://www.fullautofoundry.com/PatternsoftheNeighbourhood/",
+      "description": "full auto foundry is a workshop based type foundry that explores how processes of automation can influence the design of typefaces."
+    },
+    {
+      "org": "fantasy",
+      "name": "fa_umguksotan",
+      "class": "fa_umguksotan",
+      "by": "full auto: PatternsoftheNeighbourhood",
+      "link": "https://www.fullautofoundry.com/PatternsoftheNeighbourhood/",
+      "description": "full auto foundry is a workshop based type foundry that explores how processes of automation can influence the design of typefaces."
+    },
+    {
+      "org": "fantasy",
+      "name": "fa_gwmzswkmko",
+      "class": "fa_gwmzswkmko",
+      "by": "full auto: pagenotfound",
+      "link": "https://www.fullautofoundry.com/pagenotfound/",
+      "description": "full auto foundry is a workshop based type foundry that explores how processes of automation can influence the design of typefaces."
+    },
+    {
+      "org": "fantasy",
+      "name": "fa_kjnzeiiuul",
+      "class": "fa_kjnzeiiuul",
+      "by": "full auto: pagenotfound",
+      "link": "https://www.fullautofoundry.com/pagenotfound/",
+      "description": "full auto foundry is a workshop based type foundry that explores how processes of automation can influence the design of typefaces."
+    },
+    {
+      "org": "fantasy",
+      "name": "fa_himraikxwg",
+      "class": "fa_himraikxwg",
+      "by": "full auto: Zefir7",
+      "link": "https://www.fullautofoundry.com/Zefir7/",
+      "description": "full auto foundry is a workshop based type foundry that explores how processes of automation can influence the design of typefaces."
+    },
+    {
+      "org": "fantasy",
+      "name": "fa_iaxvoqocgd",
+      "class": "fa_iaxvoqocgd",
+      "by": "full auto: Zefir7",
+      "link": "https://www.fullautofoundry.com/Zefir7/",
+      "description": "full auto foundry is a workshop based type foundry that explores how processes of automation can influence the design of typefaces."
     },
     {
       "org": "cursive",
@@ -252,7 +364,7 @@
       "description": "ペーシタはワイルドフラワーです。あなたが自由に出版物やWebページのPecitaフォントを使用することができます"
     },
     {
-      "org": "sans-serif",
+      "org": "fantasy",
       "name": "emotional",
       "class": "emotional",
       "by": "Promphan Suksumek",
@@ -301,6 +413,14 @@
     },
     {
       "org": "sans-serif",
+      "name": "LINE Seed JP",
+      "class": "seed",
+      "by": "Fontworks, Fontrix. LINE CREATIVE CENTER",
+      "link": "https://seed.line.me/",
+      "description": "LINE Seedは、「成長」の意味を込めて、 LINEが初めて開発したフォントシリーズです。 ジオメトリックな形でLINEの利便性と フレンドリーなアイデンティティから 着想を得て制作されました。"
+    },
+    {
+      "org": "sans-serif",
       "name": "Zen Kaku Gothic New",
       "class": "ZenKakuGothicNew",
       "by": "Yoshimichi Ohira",
@@ -324,6 +444,14 @@
       "description": "Violet Office conceived Good Glyphs NO. 1 as a fundraising platform and dingbat font created by 32 designers from around the world. Conceived during the peak of the COVID19 pandemic, Good Glyphs is a small way for us to give back, raise money, and spread good vibes."
     },
     {
+      "org": "fantasy",
+      "name": "4 fromages",
+      "class": "fromages",
+      "by": "fonderie.download",
+      "link": "https://fonderie.download/",
+      "description": "4 fromages, a cheesy font created by François Elain, LazyDog and fonderie.download."
+    },
+    {
       "org": "cursive",
       "name": "Crédible",
       "class": "credible",
@@ -335,6 +463,14 @@
       "org": "fantasy",
       "name": "Quarantype",
       "class": "Quarantype",
+      "by": "fonderie.download",
+      "link": "https://fonderie.download/",
+      "description": "fonderie.download is your new favorite website. We design and distribute typefaces."
+    },
+    {
+      "org": "serif",
+      "name": "Zara",
+      "class": "zara",
       "by": "fonderie.download",
       "link": "https://fonderie.download/",
       "description": "fonderie.download is your new favorite website. We design and distribute typefaces."
@@ -364,7 +500,7 @@
       "description": "Font is something like a corporation. From outside, it is hard for us to see how it works and who is working in it. In metal type era, we were close to glyphs but today we never know how they feels about their treatment."
     },
     {
-      "org": "fantasy",
+      "org": "cursive",
       "name": "Kaeru Kaeru",
       "class": "kaerukaeru",
       "by": "Isabel Motz",
@@ -404,7 +540,7 @@
       "description": "Copyright (c) 2009 by Vered Gilad Friedman (http://veredgf.deviantart.com). All rights reserved. Free for non commercial use. For commercial use, please contact royvered@netvision.net.il"
     },
     {
-      "org": "fantasy",
+      "org": "serif",
       "name": "Heritage Display",
       "class": "Heritage",
       "by": "Daniel Schriër",
@@ -420,7 +556,7 @@
       "description": "A2Z Jasper is a cut-throat serif typeface, heavily inspired by your standard roman construction. Jasper was a practice run for a future typeface. The reasoning behind Jasper was to expand my understanding of the construction of a roman typeface."
     },
     {
-      "org": "fantasy",
+      "org": "serif",
       "name": "Jabin Typeface",
       "class": "Jabin",
       "by": "Frida Medrano",
@@ -444,6 +580,22 @@
       "description": "UNKNOWN is a free contemporary display typeface. It consists of three styles: RND, PX and MX. Additional alternates can easily be adapted using upper- or lowercase characters."
     },
     {
+      "org": "fantasy",
+      "name": "Grommet",
+      "class": "Grommet",
+      "by": "Kellen Renstrom",
+      "link": "https://kellenrenstrom.com/Grommet",
+      "description": "(Grommet) is (a blocky display typeface)"
+    },
+    {
+      "org": "fantasy",
+      "name": "WAX MELT",
+      "class": "melt",
+      "by": "WAX STUDIOS",
+      "link": "https://wax-studios.com/melt/",
+      "description": "↳ GLYPHS: 381 ↳ DIGITAL DOWNLOAD: .OTF, .WOFF ↳ PRICE: PAY WHAT YOU WISH"
+    },
+    {
       "org": "monospace",
       "name": "Space Mono",
       "class": "SpaceMono",
@@ -460,12 +612,36 @@
       "description": "Xanh Mono is a mono-serif typeface, designed by Lam Bao and Duy Dao. In Vietnamese, “Xanh” has a lot of meanings, including blue; green; young; etc."
     },
     {
-      "org": "___",
-      "name": "___",
-      "class": "___",
-      "by": "___",
-      "link": "___",
-      "description": "___"
+      "org": "monospace",
+      "name": "Fira Code Regular",
+      "class": "fira-code",
+      "by": "Nikita Prokopov",
+      "link": "https://fonts.google.com/specimen/Fira+Code",
+      "description": "Fira Code is a free monospaced font containing ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible."
+    },
+    {
+      "org": "monospace",
+      "name": "Source Code Pro",
+      "class": "source-code-pro",
+      "by": "Paul D. Hunt",
+      "link": "https://adobe-fonts.github.io/source-code-pro/",
+      "description": "Monospaced font family for user interface and coding environments."
+    },
+    {
+      "org": "fantasy",
+      "name": "Linefont",
+      "class": "linefont",
+      "by": "Dmitry Iv.",
+      "link": "https://github.com/dy/linefont",
+      "description": "Typeface for rendering small/medium-scale line charts (eg. time series)."
+    },
+    {
+      "org": "fantasy",
+      "name": "Wavefont",
+      "class": "wavefont",
+      "by": "Dmitry Iv.",
+      "link": "https://github.com/dy/wavefont",
+      "description": "A typeface for rendering data: waveforms, spectrums, diagrams, bars etc."
     },
     {
       "org": "___",
