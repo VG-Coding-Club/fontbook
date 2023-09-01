@@ -277,6 +277,16 @@
 }
 
 @font-face {
+  font-family: "Slash-Standard";
+  src: url("../family/roryking/Slash-Standard.otf"),
+    url("../family/");
+}
+
+.Slash-Standard {
+  font-family: "Slash-Standard", fantasy;
+}
+
+@font-face {
   font-family: "Immortalist";
   src: url("../family/roryking/Immortalist-Light.otf");
 }
@@ -505,6 +515,16 @@
 
 .GoodGlyphs {
   font-family: "Good Glyphs", fantasy;
+}
+
+@font-face {
+  font-family: "fall";
+  src: url("../family/PF/FontBuilder-fall.ttf"),
+    url("../family/");
+}
+
+.fall {
+  font-family: "fall", fantasy;
 }
 
 @font-face {
@@ -876,15 +896,4 @@
 
 .Flexi {
   font-family: "Flexi IBM VGA";
-}
-
-
-@font-face {
-  font-family: "class";
-  src: url("../family/"),
-    url("../family/");
-}
-
-.id {
-  font-family: "class";
 }

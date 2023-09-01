@@ -110,7 +110,6 @@ function indexItems(obj) {
         thingLi.innerHTML = `
         <h3>${thing.name}</h3>
         <small>by <i>${thing.by}</i></small>
-        <p>${thing.description}</p>
         `
         thingsUL.appendChild(thingLi);
         thingLi.addEventListener('click', function(){
@@ -123,10 +122,11 @@ function indexItems(obj) {
             `;
             const description = document.querySelector('#description');
             description.innerHTML = `
-            a b c d e f g h i j k l m n o p q r s t u v w x y z<br/>
-            A B C D E H G H I J K L M N O P Q R S T U V W X Y Z<br/>
-            0123456789 @ & § © ® ™ ° | ¦ * † ‡ ^ ¢ ¤ $ € £ ¥<br/>
+            ${thing.description}
             `;
+            const link = document.querySelector('#link');
+            link.textContent = "Download";
+            link.src = thing.link
         });
     }
 }

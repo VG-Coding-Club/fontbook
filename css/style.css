@@ -18,17 +18,54 @@ h3 {
     margin: 0;
 }
 
-header {
-    color: red;;
-    position: sticky;
-    top: 0;
-    display: grid;
-    place-items: center;
-    pointer-events: none;
-    user-select: none;
-    width: 100%;
-    height: calc(100vh - 2.5rem);
-    max-height: 100vw;
+header,
+#things {
+    float: left;
+    overflow: auto;
+}
+
+@media (orientation: landscape) {
+    header,
+    #things {
+        width: 50%;
+        height: 100vh;
+        max-height: -webkit-fill-available;
+    }
+
+    #org {
+        position: sticky;
+        top: 0;
+    }
+}
+
+@media (orientation: portrait) {
+    html {
+        font-size: 3vw;
+        height: -webkit-fill-available;
+    }
+
+    body {
+        position: fixed;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100vh;
+        max-height: -webkit-fill-available;
+    }
+
+    header,
+    #things {
+        height: 50%;
+    }
+
+    #things {
+        padding-bottom: 2.5rem;
+    }
+
+    #org {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
 }
 
 header,
@@ -36,6 +73,17 @@ header,
 #things ul {
     padding: 0.5rem;
     margin: 0;
+}
+
+#link {
+    color: #fff;
+    background: #000;
+    display: inline-block;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 0.25rem;
+    margin: 0.5rem;
+    text-decoration: none;
 }
 
 #things ul li {
@@ -50,10 +98,8 @@ input[type="radio"]+label {
 }
 
 #org {
-    position: sticky;
-    top: 0;
-    padding: 0.25rem 0.5rem;
-    margin: 0 0 1rem;
+    padding: 0 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 input[type="radio"]+label {
@@ -69,6 +115,9 @@ nav,
     clear: both;
     display: flex;
     flex-wrap: wrap;
+}
+
+nav {
     justify-content: space-between;
 }
 
@@ -81,16 +130,17 @@ input[type="radio"]+label {
 }
 
 #description,
+#link,
 #things ul h3 {
     font-size: 125%;
 }
 
+#things ul p,
 #things ul i {
     font-size: 111%;
 }
 
-input[type="radio"]+label,
-#things ul p {
+input[type="radio"]+label {
     font-size: 100%;
 }
 
@@ -114,15 +164,9 @@ h2 {
     }
 }
 
-@media (min-width:750px) {
+@media (min-width:1450px) {
     #things ul li {
         max-width: calc(100% / 3 - 0.5rem);
-    }
-}
-
-@media (min-width:1111px) {
-    #things ul li {
-        max-width: calc(100% / 4 - 0.5rem);
     }
 }
 

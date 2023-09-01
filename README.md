@@ -1,4 +1,14 @@
 # fontbook
+```
+{
+  "org": "___",
+  "name": "___",
+  "class": "___",
+  "by": "___",
+  "link": "___",
+  "description": "___"
+}
+```
 
 [@font-face](https://developer.mozilla.org/ja/docs/Web/CSS/@font-face)
 独自フォントを指定するCSS
@@ -6,8 +16,13 @@
 ```
 @font-face {
   font-family: "フォント名";
-  src: url("フォント URL") format("opentype"),
-  url("フォント URL") format("woff2");
+  src: url("../family/") format("woff2"),
+    url("../family/") format("opentype"),
+    url("../family/") format("truetype");
+}
+
+.id {
+  font-family: "class";
 }
 ```
 フォントはリモートサーバーまたはユーザー自身のコンピューターにローカルにインストールされたフォントのどちらかから読み込むことができます。

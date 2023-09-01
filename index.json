@@ -1,6 +1,6 @@
 {
   "title": "Font Book",
-  "description": "___",
+  "description": "This is The Collection of My Favorit Fonts",
   "author": "Very Gois",
   "email": "sorryforthedelayinsending@vg.pe.hu",
   "type": "website",
@@ -196,7 +196,7 @@
       "description": "コマンドーフォントは、『コマンドー』日本語版タイトルロゴをベースに制作したカナフォントです。文字を並べるだけでも充分コマンドー感が出ると思います。"
     },
     {
-      "org": "fantasy",
+      "org": "monospace",
       "name": "美咲フォント",
       "class": "misaki_gothic",
       "by": "門真 なむ",
@@ -242,6 +242,14 @@
       "by": "Marianne Noordzij",
       "link": "https://mariannenoordzij.nl/computers/",
       "description": "for inquiries: send an e-mail to business@mariannenoordzij.nl Computers-Regular in use."
+    },
+    {
+      "org": "fantasy",
+      "name": "Slash Standard",
+      "class": "Slash-Standard",
+      "by": "Rory King",
+      "link": "https://rorykingetc.com/dasickfonts",
+      "description": "A font in one weight based on a line that would appear in each letterform. Designed using Glyphs Mini."
     },
     {
       "org": "cursive",
@@ -442,6 +450,14 @@
       "by": "Violet Office",
       "link": "https://goodglyphs.com/",
       "description": "Violet Office conceived Good Glyphs NO. 1 as a fundraising platform and dingbat font created by 32 designers from around the world. Conceived during the peak of the COVID19 pandemic, Good Glyphs is a small way for us to give back, raise money, and spread good vibes."
+    },
+    {
+      "org": "fantasy",
+      "name": "fall",
+      "class": "fall",
+      "by": "Font Builder™",
+      "link": "https://pretendfoundry.com/font-builder",
+      "description": "Pretend Foundry font builder lets you draw and create your very own font."
     },
     {
       "org": "fantasy",
@@ -698,14 +714,6 @@
       "by": "VileR",
       "link": "https://int10h.org/blog/2020/12/more-font-updates-oldschool-pack-flexi-vga/#flexi-ibm-vga-v2-0",
       "description": "VileR revisited his scalable, 'de-pixelated' outline adaptation of the good ol' default VGA font."
-    },
-    {
-      "org": "___",
-      "name": "___",
-      "class": "___",
-      "by": "___",
-      "link": "___",
-      "description": "___"
     }
   ]
 }
