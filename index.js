@@ -125,8 +125,8 @@ function indexItems(obj) {
             ${thing.description}
             `;
             const link = document.querySelector('#link');
+            link.href = thing.link;
             link.textContent = "Download";
-            link.src = thing.link
         });
     }
 }
