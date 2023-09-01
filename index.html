@@ -16,11 +16,9 @@
         <h2 id="description"></h2>
     </header>
 
-    <main id="things"></main>
-
-    <footer>
+    <main id="things">
         <nav id="org"></nav>
-    </footer>
+    </main>
 
     <script type="text/javascript">
         window.onload = function () {
@@ -49,13 +47,6 @@
                 }
             }
         };
-    </script>
-    <script>
-        // Set values programmatically (more precise)
-        linefont.textContent = Array.from({ length: 127 }, (_, i) => String.fromCharCode(0x100 + i)).join('')
-        // Set values programmatically (more precise)
-        waveform.textContent = Array.from({ length: 100 }, (_, i) => String.fromCharCode(0x100 + i)).join('')
-
     </script>
 </body>
 

@@ -13,36 +13,25 @@ main ul li.hidden {
 }
 
 body,
-footer nav,
 h3 {
     padding: 0;
     margin: 0;
 }
 
-header,
-footer {
-    position: fixed;
-    left: 0;
-    right: 0;
-}
-
 header {
+    color: red;;
+    position: sticky;
+    top: 0;
     display: grid;
     place-items: center;
     pointer-events: none;
     user-select: none;
-    top: 0;
     width: 100%;
-    height: 100%;
-}
-
-footer {
-    bottom: 0;
-    width: 100%;
+    height: calc(100vh - 2.5rem);
+    max-height: 100vw;
 }
 
 header,
-footer,
 #description,
 #things ul {
     padding: 0.5rem;
@@ -60,27 +49,27 @@ input[type="radio"]+label {
     margin: 0 0.25rem;
 }
 
+#org {
+    position: sticky;
+    top: 0;
+    padding: 0.25rem 0.5rem;
+    margin: 0 0 1rem;
+}
+
 input[type="radio"]+label {
+    text-decoration: none underline;
+}
+
+input[type="radio"]:checked+label {
     text-decoration: double underline;
 }
 
-#things {
-    padding-bottom: 5rem;
-}
-
-footer nav,
+nav,
 #things ul {
     clear: both;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-#things ul li {
-    overflow: hidden;
-    list-style: none;
-    width: calc(100% / 2 - 0.5rem);
-    max-width: 300px;
 }
 
 input[type="radio"]+label {
@@ -107,6 +96,34 @@ input[type="radio"]+label,
 
 #things ul small {
     font-size: 75%;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+#things ul li {
+    overflow: hidden;
+    list-style: none;
+    width: calc(100% - 0.5rem);
+}
+
+@media (min-width:550px) {
+    #things ul li {
+        max-width: calc(100% / 2 - 0.5rem);
+    }
+}
+
+@media (min-width:750px) {
+    #things ul li {
+        max-width: calc(100% / 3 - 0.5rem);
+    }
+}
+
+@media (min-width:1111px) {
+    #things ul li {
+        max-width: calc(100% / 4 - 0.5rem);
+    }
 }
 
 .sans-serif {

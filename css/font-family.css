@@ -265,11 +265,6 @@
 }
 
 @font-face {
-  font-family: "Immortalist";
-  src: url("../family/roryking/Immortalist-Light.otf");
-}
-
-@font-face {
   font-family: 'computersnormal';
   src: url("../family/computers/computers_complete-webfont.woff2"),
     url("../family/computers/computers_complete-webfont.woff");
@@ -279,6 +274,11 @@
 
 .computers {
   font-family: "computersnormal", cursive;
+}
+
+@font-face {
+  font-family: "Immortalist";
+  src: url("../family/roryking/Immortalist-Light.otf");
 }
 
 .Immortalist {
@@ -690,6 +690,17 @@
 }
 
 @font-face {
+  font-family: "MIP";
+  src: url("../family/MIP/MIP-Regular.woff2"),
+  url("../family/MIP/MIP-Regular.woff"),
+  url("../family/MIP/MIP-Regular.otf");
+}
+
+.MIP {
+  font-family: "MIP", fantasy;
+}
+
+@font-face {
   font-family: "Grommet";
   src: url("../family/Grommet/Grommet-Light.otf"),
     url("../family/Grommet/Grommet-Regular.otf");
@@ -708,24 +719,6 @@
 
 .melt {
   font-family: "WAX MELT", fantasy;
-}
-
-@font-face {
-  font-family: "Space Mono";
-  src: url("../family/GFonts/SpaceMono-Regular.ttf");
-}
-
-.SpaceMono {
-  font-family: "Space Mono", monospace;
-}
-
-@font-face {
-  font-family: "Xanh Mono";
-  src: url("../family/GFonts/XanhMono-Regular.ttf");
-}
-
-.XanhMono {
-  font-family: "Xanh Mono", monospace;
 }
 
 @font-face {
@@ -765,30 +758,124 @@
 }
 
 @font-face {
-  font-family: "linefont";
-  font-display: block;
-  src: url("../family/dy/linefont/Linefont[wdth\,wght].ttf"),
-    url("../family/dy/linefont/Linefont[wdth\,wght].woff2");
+  font-family: "Space Mono";
+  src: url("../family/GFonts/SpaceMono-Regular.ttf");
 }
 
-.linefont {
-  --wght: 200;
-  --wdth: 50;
-  font-family: "linefont";
-  font-variation-settings: 'wght' var(--wght), 'wdth' var(--wdth);
+.SpaceMono {
+  font-family: "Space Mono", monospace;
 }
 
 @font-face {
-  font-family: "wavefont";
-  font-display: block;
-  src: url("../family/dy/wavefont/Wavefont[ROND\,YELA\,wght].ttf"),
-    url("../family/dy/wavefont/Wavefont[ROND\,YELA\,wght].woff2");
+  font-family: "Xanh Mono";
+  src: url("../family/GFonts/XanhMono-Regular.ttf");
 }
 
-.wavefont {
-  --wght: 10;
-  font-family: "wavefont";
-  font-variation-settings: 'wght' var(--wght), 'ROND' 30, 'YELA' 0;
+.XanhMono {
+  font-family: "Xanh Mono", monospace;
+}
+
+@font-face {
+  font-family: "Magyla";
+  src: url("../family/berzulis/Ma-gy-la/Berzulis-MAGYLA-Regular.ttf");
+}
+
+.Magyla {
+  font-family: "Magyla";
+}
+
+@font-face {
+  font-family: "Pizius";
+  src: url("../family/berzulis/Pi-zius/Berzulis-PIZIUS-regular.ttf");
+}
+
+.Pizius {
+  font-family: "Pizius";
+}
+
+@font-face {
+  font-family: "Barstukai";
+  src: url("../family/berzulis/Bars-tu-kai/Berzulis-BARSTUKAI-Regular.ttf");
+}
+
+.Barstukai {
+  font-family: "Barstukai";
+}
+
+@font-face {
+  font-family: "zhal-tees";
+  src: url("../family/berzulis/Zhal-tees/ZALTYS-Regular.ttf");
+}
+
+.zhal-tees {
+  font-family: "zhal-tees";
+}
+
+@font-face {
+  font-family: "qu-po-l-eh";
+  src: url("../family/berzulis/Qu-po-leh/KUPOLE-Regular.ttf");
+}
+
+.qu-po-l-eh {
+  font-family: "qu-po-l-eh";
+}
+
+@font-face {
+  font-family: "Frames";
+  src: url("../family/nathanlaurent/frames/FramesPartOne-Regular.woff2"),
+    url("../family/nathanlaurent/frames/FramesPartOne-Medium.woff2"),
+    url("../family/nathanlaurent/frames/FramesPartOne-Light.woff2"),
+    url("../family/nathanlaurent/frames/FramesPartOne-Bold.woff2"),
+    url("../family/nathanlaurent/frames/FramesPartOne-Regular.woff"),
+    url("../family/nathanlaurent/frames/FramesPartOne-Medium.woff"),
+    url("../family/nathanlaurent/frames/FramesPartOne-Light.woff"),
+    url("../family/nathanlaurent/frames/FramesPartOne-Bold.woff"),
+    url("../family/nathanlaurent/frames/FramesPartOne-Regular.eot"),
+    url("../family/nathanlaurent/frames/FramesPartOne-Medium.eot"),
+    url("../family/nathanlaurent/frames/FramesPartOne-Light.eot"),
+    url("../family/nathanlaurent/frames/FramesPartOne-Bold.eot");
+}
+
+.Frames {
+  font-family: "Frames";
+}
+
+@font-face {
+  font-family: "Granturismo";
+  src: url("../family/nathanlaurent/granturismo/Granturismo-Condensed.woff2"),
+    url("../family/nathanlaurent/granturismo/Granturismo-CondensedItalic.woff2"),
+    url("../family/nathanlaurent/granturismo/Granturismo-Extended.woff2"),
+    url("../family/nathanlaurent/granturismo/Granturismo-SemiBoldCondensed.woff2"),
+    url("../family/nathanlaurent/granturismo/Granturismo-SemiBoldCondensedItalic.woff2"),
+    url("../family/nathanlaurent/granturismo/Granturismo-BoldCondensed.woff2"),
+    url("../family/nathanlaurent/granturismo/Granturismo-BoldCondensedItalic.woff2"),
+    url("../family/nathanlaurent/granturismo/Granturismo-Condensed.woff"),
+    url("../family/nathanlaurent/granturismo/Granturismo-CondensedItalic.woff"),
+    url("../family/nathanlaurent/granturismo/Granturismo-Extended.woff"),
+    url("../family/nathanlaurent/granturismo/Granturismo-SemiBoldCondensed.woff"),
+    url("../family/nathanlaurent/granturismo/Granturismo-SemiBoldCondensedItalic.woff"),
+    url("../family/nathanlaurent/granturismo/Granturismo-BoldCondensed.woff"),
+    url("../family/nathanlaurent/granturismo/Granturismo-BoldCondensedItalic.woff"),
+    url("../family/nathanlaurent/granturismo/Granturismo-Condensed.eot"),
+    url("../family/nathanlaurent/granturismo/Granturismo-CondensedItalic.eot"),
+    url("../family/nathanlaurent/granturismo/Granturismo-Extended.eot"),
+    url("../family/nathanlaurent/granturismo/Granturismo-SemiBoldCondensed.eot"),
+    url("../family/nathanlaurent/granturismo/Granturismo-SemiBoldCondensedItalic.eot"),
+    url("../family/nathanlaurent/granturismo/Granturismo-BoldCondensed.eot"),
+    url("../family/nathanlaurent/granturismo/Granturismo-BoldCondensedItalic.eot");
+}
+
+.granturismo {
+  font-family: "Granturismo";
+}
+
+@font-face {
+  font-family: "Flexi IBM VGA";
+  src: url("../family/int10h/Flexi_IBM_VGA_False.ttf");
+}
+
+.Flexi {
+  font-family: "Flexi IBM VGA";
 }
 
 

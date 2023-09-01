@@ -581,6 +581,14 @@
     },
     {
       "org": "fantasy",
+      "name": "MIP",
+      "class": "MIP",
+      "by": "Dennis Grauel",
+      "link": "https://www.dennisgrauel.com/mip",
+      "description": "MIP arises from a typography workshop conducted in June 2022 with Adelaide Contemporary Experimental (ACE) exploring the entwined ideas and politics of mapping and typography."
+    },
+    {
+      "org": "fantasy",
       "name": "Grommet",
       "class": "Grommet",
       "by": "Kellen Renstrom",
@@ -594,22 +602,6 @@
       "by": "WAX STUDIOS",
       "link": "https://wax-studios.com/melt/",
       "description": "↳ GLYPHS: 381 ↳ DIGITAL DOWNLOAD: .OTF, .WOFF ↳ PRICE: PAY WHAT YOU WISH"
-    },
-    {
-      "org": "monospace",
-      "name": "Space Mono",
-      "class": "SpaceMono",
-      "by": "Colophon",
-      "link": "https://fonts.google.com/specimen/Space+Mono",
-      "description": "Space Mono is an original fixed-width type family designed by Colophon Foundry for Google Design."
-    },
-    {
-      "org": "monospace",
-      "name": "Xanh Mono",
-      "class": "XanhMono",
-      "by": "Yellow Type, Lam Bao, Duy Dao",
-      "link": "https://fonts.google.com/specimen/Xanh+Mono",
-      "description": "Xanh Mono is a mono-serif typeface, designed by Lam Bao and Duy Dao. In Vietnamese, “Xanh” has a lot of meanings, including blue; green; young; etc."
     },
     {
       "org": "monospace",
@@ -628,20 +620,84 @@
       "description": "Monospaced font family for user interface and coding environments."
     },
     {
-      "org": "fantasy",
-      "name": "Linefont",
-      "class": "linefont",
-      "by": "Dmitry Iv.",
-      "link": "https://github.com/dy/linefont",
-      "description": "Typeface for rendering small/medium-scale line charts (eg. time series)."
+      "org": "monospace",
+      "name": "Space Mono",
+      "class": "SpaceMono",
+      "by": "Colophon",
+      "link": "https://fonts.google.com/specimen/Space+Mono",
+      "description": "Space Mono is an original fixed-width type family designed by Colophon Foundry for Google Design."
+    },
+    {
+      "org": "monospace",
+      "name": "Xanh Mono",
+      "class": "XanhMono",
+      "by": "Yellow Type, Lam Bao, Duy Dao",
+      "link": "https://fonts.google.com/specimen/Xanh+Mono",
+      "description": "Xanh Mono is a mono-serif typeface, designed by Lam Bao and Duy Dao. In Vietnamese, “Xanh” has a lot of meanings, including blue; green; young; etc."
     },
     {
       "org": "fantasy",
-      "name": "Wavefont",
-      "class": "wavefont",
-      "by": "Dmitry Iv.",
-      "link": "https://github.com/dy/wavefont",
-      "description": "A typeface for rendering data: waveforms, spectrums, diagrams, bars etc."
+      "name": "Magyla",
+      "class": "Magyla",
+      "by": "Studio Cryo",
+      "link": "https://berzulis.com/",
+      "description": "Magyla in Lithuanian mythology is the demon of death who likes torturing people. She is also a maid of Grim Reaper. Typeface created by Studio Cryo. Current version is 1.000."
+    },
+    {
+      "org": "fantasy",
+      "name": "Pizius",
+      "class": "Pizius",
+      "by": "Studio Cryo",
+      "link": "https://berzulis.com/",
+      "description": "Pizius in Lithuanian mythology is a God who protects love, marriage & sexual relations. Typeface created by Studio Cryo. Current version is 1.000."
+    },
+    {
+      "org": "fantasy",
+      "name": "Barstukai",
+      "class": "Barstukai",
+      "by": "Studio Cryo",
+      "link": "https://berzulis.com/",
+      "description": "Barstukai (pronounced bars-tu-kai) in Lithuanian mythology are tiny people living in the forests, under the trees. Typeface created by Studio Cryo. Current version is 1.001."
+    },
+    {
+      "org": "fantasy",
+      "name": "Žaltys",
+      "class": "zhal-tees",
+      "by": "Studio Cryo",
+      "link": "https://berzulis.com/",
+      "description": "Žaltys (pronounced zhal-tees), or the Grass Snake, is a household spirit in Lithuanian mythology, guardian of the home and a symbol of fertility. Typeface created by Studio Cryo. Current version is 1.000."
+    },
+    {
+      "org": "fantasy",
+      "name": "Kupolė",
+      "class": "qu-po-l-eh",
+      "by": "Studio Cryo",
+      "link": "https://berzulis.com/",
+      "description": "Kupolė (pronounced qu-po-l-eh) is the spirit of springtime vegetation and flowers bringing people health, happiness, protecting against all evils. Typeface created by Studio Cryo. Current version is 1.000."
+    },
+    {
+      "org": "monospace",
+      "name": "Frames Part One",
+      "class": "Frames",
+      "by": "Nathan Laurent",
+      "link": "https://nathanlaurent.github.io/frames.html",
+      "description": "Frames Part One : Thin/ Light/ Regular/ Medium/ Bold and Variable. Version 1.6. Release May 22. SIL Open Font License"
+    },
+    {
+      "org": "monospace",
+      "name": "Granturismo",
+      "class": "granturismo",
+      "by": "Nathan Laurent",
+      "link": "https://nathanlaurent.github.io/granturismo.html",
+      "description": "Display | Free for commercial use, OFL · Granturismo Font. ByFontesk. June 17, 2022 | featured in Display. frames-4."
+    },
+    {
+      "org": "monospace",
+      "name": "Flexi IBM VGA, v2.0",
+      "class": "Flexi",
+      "by": "VileR",
+      "link": "https://int10h.org/blog/2020/12/more-font-updates-oldschool-pack-flexi-vga/#flexi-ibm-vga-v2-0",
+      "description": "VileR revisited his scalable, 'de-pixelated' outline adaptation of the good ol' default VGA font."
     },
     {
       "org": "___",
