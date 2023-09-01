@@ -405,8 +405,8 @@
 
 @font-face {
   font-family: "Kristina";
-  src: url("../family/Kristina/Kristina.Fine.otf"),
-    url("../family/Kristina/Kristina.Bold.otf");
+  src: url("../family/Kristina/Kristina-Fine.otf"),
+    url("../family/Kristina/Kristina-Bold.otf");
 }
 
 .Kristina {
