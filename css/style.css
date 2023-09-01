@@ -24,50 +24,6 @@ header,
     overflow: auto;
 }
 
-@media (orientation: landscape) {
-    header,
-    #things {
-        width: 50%;
-        height: 100vh;
-        max-height: -webkit-fill-available;
-    }
-
-    #org {
-        position: sticky;
-        top: 0;
-    }
-}
-
-@media (orientation: portrait) {
-    html {
-        font-size: 3vw;
-        height: -webkit-fill-available;
-    }
-
-    body {
-        position: fixed;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 100vh;
-        max-height: -webkit-fill-available;
-    }
-
-    header,
-    #things {
-        height: 50%;
-    }
-
-    #things {
-        padding-bottom: 2.5rem;
-    }
-
-    #org {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-    }
-}
-
 header,
 #description,
 #things ul {
@@ -110,6 +66,62 @@ input[type="radio"]:checked+label {
     text-decoration: double underline;
 }
 
+#things ul li {
+    overflow: hidden;
+    list-style: none;
+    width: calc(100% / 2 - 0.5rem);
+}
+
+@media (min-width:1450px) {
+    #things ul li {
+        max-width: calc(100% / 3 - 0.5rem);
+    }
+}
+
+@media (orientation: landscape) {
+    header,
+    #things {
+        width: 50%;
+        height: 100vh;
+        max-height: -webkit-fill-available;
+    }
+
+    #org {
+        position: sticky;
+        top: 0;
+    }
+}
+
+@media (orientation: portrait) {
+    html {
+        font-size: 2.75vw;
+        height: -webkit-fill-available;
+    }
+
+    body {
+        position: fixed;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100vh;
+        max-height: -webkit-fill-available;
+    }
+
+    header,
+    #things {
+        height: 50%;
+    }
+
+    #things {
+        padding-bottom: 2.5rem;
+    }
+
+    #org {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
 nav,
 #things ul {
     clear: both;
@@ -150,24 +162,6 @@ input[type="radio"]+label {
 
 h2 {
     font-weight: 100;
-}
-
-#things ul li {
-    overflow: hidden;
-    list-style: none;
-    width: calc(100% - 0.5rem);
-}
-
-@media (min-width:550px) {
-    #things ul li {
-        max-width: calc(100% / 2 - 0.5rem);
-    }
-}
-
-@media (min-width:1450px) {
-    #things ul li {
-        max-width: calc(100% / 3 - 0.5rem);
-    }
 }
 
 .sans-serif {
