@@ -1,4 +1,4 @@
-# [fontbook](https://fontbook.vg.pe.hu/)
+# [Font Book | Very Gois](https://fontbook.vg.pe.hu/)
 ```
 {
   "org": "___",
