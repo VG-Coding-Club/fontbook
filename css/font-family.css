@@ -36,12 +36,21 @@
 }
 
 @font-face {
+  font-family: "Apple Chancery";
+  src: url("../family/apple-chancery.ttf");
+}
+
+.apple-chancery {
+  font-family: "Apple Chancery", cursive;
+}
+
+@font-face {
   font-family: "Great Vibes";
   src: url("../family/GFonts/GreatVibes-Regular.ttf");
 }
 
 .GreatVibes {
-  font-family: "Great Vibes", fantasy;
+  font-family: "Great Vibes", cursive;
 }
 
 @font-face {
