@@ -93,6 +93,14 @@
     },
     {
       "org": "cursive",
+      "name": "Apple Chancery",
+      "class": "apple-chancery",
+      "by": "Kris Holmes",
+      "link": "https://fontsgeek.com/fonts/Apple-Chancery-Regular",
+      "description": "commissioned by Apple in 1993. Holmes had been taught calligraphy at Reed College, by the same tutors as Steve Jobs (though not at the same time). The font's goal was to include complex alternates to somewhat mimic the verve of Renaissance scribes."
+    },
+    {
+      "org": "cursive",
       "name": "Great Vibes",
       "class": "GreatVibes",
       "by": "Robert Leuschke",
