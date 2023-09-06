@@ -73,6 +73,31 @@
 }
 
 @font-face {
+  font-family: "ProductSans";
+  src: url("../family/ProductSans-Regular.ttf");
+}
+
+.ProductSans {
+  font-family: "ProductSans", sans-serif;
+}
+
+@font-face {
+  font-family: "AmazonEmber";
+  src: url("../family/AmazonEmber/Amazon-Ember-Medium.ttf"),
+    url("../family/AmazonEmber/Amazon-Ember-MediumItalic.ttf"),
+    url("../family/AmazonEmber/AmazonEmber_Rg.ttf"),
+    url("../family/AmazonEmber/AmazonEmber_RgIt.ttf"),
+    url("../family/AmazonEmber/AmazonEmber_Bd.ttf"),
+    url("../family/AmazonEmber/AmazonEmber_BdIt.ttf"),
+    url("../family/AmazonEmber/AmazonEmber_Lt.ttf"),
+    url("../family/AmazonEmber/AmazonEmber_LtIt.ttf");
+}
+
+.AmazonEmber {
+  font-family: "AmazonEmber", sans-serif;
+}
+
+@font-face {
   font-family: "LINE Seed JP";
   src: url("../family/line/WOFF2/LINESeedJP_OTF_Rg.woff2"),
     url("../family/line/WOFF2/LINESeedJP_OTF_Th.woff2"),
