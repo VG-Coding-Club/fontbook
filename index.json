@@ -76,6 +76,22 @@
       "description": "IBM Plex® is our new typeface. It’s global, it’s versatile and it’s distinctly IBM."
     },
     {
+      "org": "sans-serif",
+      "name": "Product Sans",
+      "class": "ProductSans",
+      "by": "Google Inc.",
+      "link": "https://storage.googleapis.com/g-design/static/product-sans-specimen.pdf",
+      "description": "Product Sans is a contemporary geometric sans-serif typeface created by Google for branding purposes."
+    },
+    {
+      "org": "sans-serif",
+      "name": "Amazon Ember",
+      "class": "AmazonEmber",
+      "by": "Amazon Complete Font Set",
+      "link": "https://developer.amazon.com/ja-JP/alexa/branding/echo-guidelines/identity-guidelines/typography",
+      "description": "Typography plays an important role in Amazon Echo brand recognition. It communicates a consistent, unified identity and gives instant personality to our written words. Amazon Ember is the master brand font for all Amazon products and services."
+    },
+    {
       "org": "serif",
       "name": "IPAフォント",
       "class": "ipam",
