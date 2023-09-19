@@ -1,39 +1,4 @@
 {
-  "title": "Font Book",
-  "description": "This is The Collection of My Favorit Fonts",
-  "author": "Very Gois",
-  "email": "sorryforthedelayinsending@vg.pe.hu",
-  "type": "website",
-  "src": "icon.png",
-  "icon": "icon.png",
-  
-  "org": [
-    {
-      "id": "sans-serif",
-      "name": "Sans-Serif"
-    },
-    {
-      "id": "serif",
-      "name": "Serif"
-    },
-    {
-      "id": "monospace",
-      "name": "Monospace"
-    },
-    {
-      "id": "cursive",
-      "name": "Cursive"
-    },
-    {
-      "id": "fantasy",
-      "name": "Fantasy"
-    },
-    {
-      "id": "all",
-      "name": "View All"
-    }
-  ],
-
   "things": [
     {
       "org": "sans-serif",
