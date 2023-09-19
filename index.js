@@ -1,7 +1,6 @@
 'use strict'
 
-async function indexJSON() {
-    const requestURL = 'index.json';
+async function indexJSON(requestURL) {
     const request = new Request(requestURL);
     const response = await fetch(request);
     const jsonIndex = await response.text();
@@ -44,11 +43,10 @@ function indexItems(obj) {
 
 document.addEventListener('readystatechange', event => {
     if (event.target.readyState === 'interactive') {
-        indexJSON()
+        indexJSON('index.json')
 
         const thisTitle = document.title
         document.querySelector('#title').textContent = thisTitle;
-
         const thisDescription = document.querySelector('meta[name="description"]').content;
         document.querySelector('#description').textContent = thisDescription;
     } else if (event.target.readyState === 'complete') {

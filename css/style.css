@@ -7,8 +7,7 @@ html {
     box-sizing: border-box;
 }
 
-input[type="radio"],
-main ul li.hidden {
+input[type="radio"] {
     display: none;
 }
 

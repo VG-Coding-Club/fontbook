@@ -21,8 +21,8 @@
     url("../family/") format("truetype");
 }
 
-.id {
-  font-family: "class";
+.class {
+  font-family: "フォント名";
 }
 ```
 フォントはリモートサーバーまたはユーザー自身のコンピューターにローカルにインストールされたフォントのどちらかから読み込むことができます。
