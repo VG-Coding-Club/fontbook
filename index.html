@@ -48,10 +48,42 @@
 
     <ul id="things"></ul>
 
+    <footer>
+        <span>
+            <u>Last Modified</u>
+            <time id="lastModified"></time>
+        </span>
+    </footer>
+
     <dialog id="modal">
         <button type="button" id="closeBtn">×</button>
         <h3 id="name"></h3>
         <p id="moreinfo"></p>
         <a id="link" href="#" target="_blank">More Info</a>
     </dialog>
+
+    <script>
+        const lastModif = document.querySelector('#lastModified');
+        lastModif.textContent = new Date(document.lastModified);
+        lastModif.setAttribute("data-time", document.lastModified);
+        lastModif.addEventListener('click', function (event) {
+            let ago = new Date(document.lastModified);
+            let diff = new Date().getTime() - ago.getTime();
+            let progress = new Date(diff);
+            if (progress.getUTCFullYear() - 1970) {
+              event.target.textContent = progress.getUTCFullYear() - 1970 + ' year ago';
+            } else if (progress.getUTCMonth()) {
+              event.target.textContent = progress.getUTCMonth() + ' month ago';
+            } else if (progress.getUTCDate() - 1) {
+              event.target.textContent = progress.getUTCDate() - 1 + ' day ago';
+            } else if (progress.getUTCHours()) {
+              event.target.textContent = progress.getUTCHours() + ' hour ago';
+            } else if (progress.getUTCMinutes()) {
+              event.target.textContent = progress.getUTCMinutes() + ' minute ago';
+            } else {
+              event.target.textContent = 'Now';
+            }
+          });
+        }
+    </script>
 </body>
