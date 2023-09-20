@@ -30,24 +30,28 @@
     <header>
         <h1 id="title"></h1>
         <h2 id="description"></h2>
-        <a id="link" href="https://www.are.na/kazuma-sasajima/font-book" target="_blank" rel="noreferrer">Are.na</a>
     </header>
+    <nav id="org">
+        <input id="sans-serif" value="sans-serif" type="radio" name="org">
+        <label for="sans-serif">sans-serif</label>
+        <input id="serif" value="serif" type="radio" name="org">
+        <label for="serif">serif</label>
+        <input id="monospace" value="monospace" type="radio" name="org">
+        <label for="monospace">monospace</label>
+        <input id="cursive" value="cursive" type="radio" name="org">
+        <label for="cursive">cursive</label>
+        <input id="fantasy" value="fantasy" type="radio" name="org">
+        <label for="fantasy">fantasy</label>
+        <input id="all" value="all" type="radio" name="org" checked>
+        <label for="all">View All</label>
+    </nav>
 
-    <main>
-        <nav id="org">
-            <input id="sans-serif" value="sans-serif" type="radio" name="org">
-            <label for="sans-serif">sans-serif</label>
-            <input id="serif" value="serif" type="radio" name="org">
-            <label for="serif">serif</label>
-            <input id="monospace" value="monospace" type="radio" name="org">
-            <label for="monospace">monospace</label>
-            <input id="cursive" value="cursive" type="radio" name="org">
-            <label for="cursive">cursive</label>
-            <input id="fantasy" value="fantasy" type="radio" name="org">
-            <label for="fantasy">fantasy</label>
-            <input id="all" value="all" type="radio" name="org" checked>
-            <label for="all">View All</label>
-        </nav>
-        <ul id="things"></ul>
-    </main>
+    <ul id="things"></ul>
+
+    <dialog id="modal">
+        <button type="button" id="closeBtn">×</button>
+        <h3 id="name"></h3>
+        <p id="moreinfo"></p>
+        <a id="link" href="#" target="_blank">More Info</a>
+    </dialog>
 </body>

@@ -5,10 +5,10 @@ async function indexJSON(requestURL) {
     const response = await fetch(request);
     const jsonIndex = await response.text();
     const index = JSON.parse(jsonIndex);
-    indexItems(index);
+    allTheThings(index);
 }
 
-function indexItems(obj) {
+function allTheThings(obj) {
     const thingsUL = document.querySelector('#things');
     const thingAll = obj.things;
 
@@ -22,40 +22,54 @@ function indexItems(obj) {
         `
         thingsUL.appendChild(thingLi);
 
+        const dialogModal = document.querySelector('#modal');
         thingLi.addEventListener('click', function () {
-            const header = document.querySelector('header');
-            header.className = thing.class;
-            const title = document.querySelector('#title');
-            title.innerHTML = `
+            onModal()
+
+            dialogModal.className = thing.class;
+            document.querySelector('header').className = thing.class;
+            document.querySelector('#org').className = thing.class;
+
+            const family = document.querySelector('#name');
+            family.innerHTML = `
             ${thing.name}<br/>
             <small>by ${thing.by}</small>
             `;
-            const description = document.querySelector('#description');
-            description.innerHTML = `
-            ${thing.description}
-            `;
+            const moreinfo = document.querySelector('#moreinfo');
+            moreinfo.innerHTML = thing.description;
             const link = document.querySelector('#link');
             link.href = thing.link;
-            link.textContent = "Download";
+        });
+
+        function onModal() {
+            if (typeof dialogModal.showModal === "function") {
+                dialogModal.showModal();
+            } else {
+                alert("The <dialog> API is not supported by this browser");
+            }
+        }
+
+        const closeBtn = document.querySelector('#closeBtn');
+        closeBtn.addEventListener('click', () => {
+            dialogModal.close();
         });
     }
 }
 
 document.addEventListener('readystatechange', event => {
     if (event.target.readyState === 'interactive') {
-        indexJSON('index.json')
-
         const thisTitle = document.title
         document.querySelector('#title').textContent = thisTitle;
         const thisDescription = document.querySelector('meta[name="description"]').content;
         document.querySelector('#description').textContent = thisDescription;
+
+        indexJSON('index.json')
     } else if (event.target.readyState === 'complete') {
-        const filter = document.querySelectorAll('#org input[type="radio"]')
         //****** for all select ******
+        const filter = document.querySelectorAll('#org input[type="radio"]')
         for (let i of filter) {
             i.addEventListener('change', () => {
                 let value = i.value
-                let name = i.getAttribute('name')
                 //*** for each target ***
                 let targets = document.querySelectorAll('#things li')
                 for (let ii of targets) {

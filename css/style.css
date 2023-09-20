@@ -12,22 +12,63 @@ input[type="radio"] {
 }
 
 body,
+h1,
+h2,
 h3 {
     padding: 0;
     margin: 0;
 }
 
 header,
-main {
-    float: left;
-    overflow: auto;
-}
-
-header,
-#description,
+#org,
 #things {
     padding: 0.5rem;
     margin: 0;
+}
+
+header,
+#org {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#org {
+    position: sticky;
+    top: 0;
+}
+
+#org label {
+    padding: 0.25rem 0;
+    margin: 0;
+}
+
+#org input[type="radio"]+label {
+    text-transform: uppercase;
+    text-decoration: none underline;
+}
+
+#org input[type="radio"]:checked+label {
+    text-decoration: double underline;
+}
+
+#things {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 0.5rem;
+}
+
+#things li {
+    border: solid #000 1px;
+    padding: 0.5rem;
+    list-style: none;
+    overflow: hidden;
+}
+
+#things li:hover {
+    cursor: pointer;
 }
 
 #link {
@@ -37,119 +78,11 @@ header,
     font-style: italic;
     font-weight: bolder;
     padding: 0.25rem;
-    margin: 0.5rem;
     text-decoration: none;
 }
 
-#things li {
-    color: #000;
-    background: #fff;
-    padding: 0.5rem;
-    margin: 0.25rem;
-}
-
-#things li:hover {
-    cursor: pointer;
-    filter: invert();
-}
-
-#title,
-input[type="radio"]+label {
-    padding: 0.25rem;
-    margin: 0 0.25rem;
-}
-
-#org {
-    padding: 0 0.5rem;
-}
-
-input[type="radio"]+label {
-    text-decoration: none underline;
-}
-
-input[type="radio"]:checked+label {
-    text-decoration: double underline;
-}
-
-nav,
-#things {
-    clear: both;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#things li {
-    border: solid 1px;
-    overflow: hidden;
-    list-style: none;
-    width: calc(100% / 2 - 0.5rem);
-}
-
-@media (min-width:1450px) {
-    #things li {
-        max-width: calc(100% / 3 - 0.5rem);
-    }
-}
-
-@media (orientation: landscape) {
-
-    header,
-    main {
-        width: 50%;
-        height: 100vh;
-        max-height: -webkit-fill-available;
-    }
-
-    #org {
-        position: sticky;
-        top: 0;
-    }
-}
-
-@media (orientation: portrait) {
-    html {
-        font-size: 2.75vw;
-        height: -webkit-fill-available;
-    }
-
-    body {
-        position: fixed;
-        display: grid;
-        align-items: end;
-        width: 100%;
-        height: 100vh;
-        max-height: -webkit-fill-available;
-    }
-
-    header {
-        min-height: 100vw;
-    }
-
-    main {
-        height: auto;
-    }
-
-    #things {
-        flex-wrap: nowrap;
-    }
-
-    #things li {
-        min-width: 55vw;
-    }
-
-    #org {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-    }
-}
-
-nav {
-    justify-content: space-between;
-}
-
-input[type="radio"]+label {
-    text-transform: uppercase;
+#closeBtn {
+    float: right;
 }
 
 .sans-serif,
@@ -178,28 +111,35 @@ label[for="fantasy"] {
 }
 
 #title {
-    font-size: 200%;
+    font-size: 150%;
+    font-style: italic;
 }
 
-#description,
-#link,
 #things h3 {
     font-size: 125%;
 }
 
+#description,
 #things p,
-#things i {
+#things i,
+#link {
     font-size: 111%;
 }
 
 input[type="radio"]+label {
-    font-size: 100%;
+    font-size: 90%;
 }
 
 #things small {
     font-size: 75%;
 }
 
-h2 {
-    font-weight: 100;
+#description,
+#things small {
+    font-weight: 500;
+}
+
+#modal {
+    width: 75%;
+    max-width: 500px;
 }

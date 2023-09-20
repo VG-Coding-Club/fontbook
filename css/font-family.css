@@ -487,6 +487,19 @@
 }
 
 @font-face {
+  font-family: "Zen Kaku Gothic New";
+  src: url("../family/GFonts/ZenKakuGothicNew/ZenKakuGothicNew-Regular.ttf"),
+    url("../family/GFonts/ZenKakuGothicNew/ZenKakuGothicNew-Medium.ttf"),
+    url("../family/GFonts/ZenKakuGothicNew/ZenKakuGothicNew-Black.ttf"),
+    url("../family/GFonts/ZenKakuGothicNew/ZenKakuGothicNew-Bold.ttf"),
+    url("../family/GFonts/ZenKakuGothicNew/ZenKakuGothicNew-Light.ttf");
+}
+
+.ZenKakuGothicNew {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+@font-face {
   font-family: "Milkman";
   src: url("../family/uncut/milkman.ttf");
 }
@@ -746,8 +759,8 @@
 @font-face {
   font-family: "MIP";
   src: url("../family/MIP/MIP-Regular.woff2"),
-  url("../family/MIP/MIP-Regular.woff"),
-  url("../family/MIP/MIP-Regular.otf");
+    url("../family/MIP/MIP-Regular.woff"),
+    url("../family/MIP/MIP-Regular.otf");
 }
 
 .MIP {
