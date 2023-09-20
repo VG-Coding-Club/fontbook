@@ -27,9 +27,10 @@ function allTheThings(obj) {
             onModal()
 
             dialogModal.className = thing.class;
-            document.querySelector('header').className = thing.class;
-            document.querySelector('#org').className = thing.class;
-
+            const familyAll = document.querySelectorAll("header, footer, #org");
+            familyAll.forEach((familyEach) => {
+                familyEach.className = thing.class;
+            });
             const family = document.querySelector('#name');
             family.innerHTML = `
             ${thing.name}<br/>
