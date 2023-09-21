@@ -68,7 +68,7 @@
 
     <script>
         const lastModif = document.querySelector('#lastModified');
-        lastModif.textContent = new Date(document.lastModified);
+        lastModif.textContent = document.lastModified;
         lastModif.setAttribute("data-time", document.lastModified);
 
         lastModif.addEventListener('click', function (event) {
