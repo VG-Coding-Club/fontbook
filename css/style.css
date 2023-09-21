@@ -43,6 +43,10 @@ footer p {
   flex: 1 250px;
 }
 
+footer p.wide {
+  flex: 1 500px;
+}
+
 header,
 footer,
 #org {
