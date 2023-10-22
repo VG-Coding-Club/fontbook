@@ -703,6 +703,22 @@
       "by": "VileR",
       "link": "https://int10h.org/blog/2020/12/more-font-updates-oldschool-pack-flexi-vga/#flexi-ibm-vga-v2-0",
       "description": "VileR revisited his scalable, 'de-pixelated' outline adaptation of the good ol' default VGA font."
+    },
+    {
+      "org": "cursive",
+      "name": "S2Gらぶ",
+      "class": "S2G",
+      "by": "STUDIO twoG",
+      "link": "http://freebies-db.com/free-japanese-font-s2g-love.html",
+      "description": "ところどころにハートの装飾をしたかわいい日本語フリーフォントです。文字自体も細身で丸みのついた可愛いデザイン。ひらがな・カタカナ・英数字・第一水準漢字・第二水準漢字・IBM拡張漢字・各種記号が使えます。利用については個人利用までは無料。商用の場合は1口1000円のカンパが必要です。"
+    },
+    {
+      "org": "cursive",
+      "name": "Cheekふぉんと",
+      "class": "CheekFont",
+      "by": "かに沢のりお",
+      "link": "https://eng.fontke.com/font/23392034/",
+      "description": "Cheekふぉんとは子供が書いたような手書き風のフォントです。漢字はJIS第一水準の漢字2,965文字が収録されています。広めのふところで、明るい雰囲気のデザインによく合います。"
     }
   ]
 }
