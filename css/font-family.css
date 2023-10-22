@@ -945,3 +945,21 @@
 .Flexi {
   font-family: "Flexi IBM VGA";
 }
+
+@font-face {
+  font-family: 'S2G';
+  src: url('../family/love.ttf');
+}
+
+.S2G {
+  font-family: "S2G";
+}
+
+@font-face {
+  font-family: 'CheekFont';
+  src: url('../family/CheekFont-Regular.ttf');
+}
+
+.CheekFont {
+  font-family: "CheekFont";
+}
