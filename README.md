@@ -31,4 +31,4 @@
 
 ___
 
-[Are.na](https://www.are.na/kazuma-sasajima/font-book)
+[Font Book | Are.na](https://www.are.na/kazuma-sasajima/font-book)
