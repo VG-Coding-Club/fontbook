@@ -25,5 +25,10 @@
   font-family: "フォント名";
 }
 ```
+
 フォントはリモートサーバーまたはユーザー自身のコンピューターにローカルにインストールされたフォントのどちらかから読み込むことができます。
 利用可能なフォント形式（format）は、"woff", "woff2", "truetype", "opentype", "embedded-opentype", "svg"
+
+___
+
+[Are.na](https://www.are.na/kazuma-sasajima/font-book)
